@@ -1,0 +1,40 @@
+PODS:
+  - Bolts/Tasks (1.9.1)
+  - IQKeyboardManager (6.5.6)
+  - mailcore2-ios (0.6.4)
+  - Parse (1.19.0):
+    - Parse/Core (= 1.19.0)
+  - Parse/Core (1.19.0):
+    - Bolts/Tasks (= 1.9.1)
+  - RMStore (0.7.1):
+    - RMStore/Core (= 0.7.1)
+  - RMStore/Core (0.7.1)
+  - UICKeyChainStore (2.2.1)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - mailcore2-ios
+  - Parse
+  - RMStore
+  - UICKeyChainStore
+
+SPEC REPOS:
+  trunk:
+    - Bolts
+    - IQKeyboardManager
+    - mailcore2-ios
+    - Parse
+    - RMStore
+    - UICKeyChainStore
+
+SPEC CHECKSUMS:
+  Bolts: 8c1e8aab2f603387b8b9924f57d1d64f43d3ffdc
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  mailcore2-ios: 3ff0be2fa553d4da9c11d39c11d51863c768f24f
+  Parse: 0fb5c7cc7ee5900f2434e24607d0496155b8d04f
+  RMStore: 64ba13a9c040e3b7572765d169f77175cd3243e5
+  UICKeyChainStore: ba3bff2c762b12db1e516f395c837dd25298b05e
+
+PODFILE CHECKSUM: d55cd40e3c2425f808034f83303bcb141cb86c43
+
+COCOAPODS: 1.9.3

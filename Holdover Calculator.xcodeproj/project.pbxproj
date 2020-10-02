@@ -1,0 +1,1769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C27408B21A09F8100C0F414 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C27408A21A09F8100C0F414 /* ViewController.m */; };
+		8C27408E21A09F8100C0F414 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C27408C21A09F8100C0F414 /* Main.storyboard */; };
+		8C27409121A09F8100C0F414 /* Holdover_Calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C27408F21A09F8100C0F414 /* Holdover_Calculator.xcdatamodeld */; };
+		8C27409321A09F8200C0F414 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C27409221A09F8200C0F414 /* Assets.xcassets */; };
+		8C27409621A09F8200C0F414 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C27409421A09F8200C0F414 /* LaunchScreen.storyboard */; };
+		8C27409921A09F8200C0F414 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C27409821A09F8200C0F414 /* main.m */; };
+		8C2740A321A09F8200C0F414 /* Holdover_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2740A221A09F8200C0F414 /* Holdover_CalculatorTests.m */; };
+		8C2740AE21A09F8300C0F414 /* Holdover_CalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2740AD21A09F8300C0F414 /* Holdover_CalculatorUITests.m */; };
+		8C280C0921AFA1C900110414 /* KiloLima Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C280C0821AFA1C500110414 /* KiloLima Logo.png */; };
+		8C398FB021A3A2CE008A0D61 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C398FAF21A3A2CE008A0D61 /* Default-568h@2x.png */; };
+		8C521092251AD199009CC78D /* IQKeyboardManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C871A3A21A3DA4A00FBF89F /* IQKeyboardManager.framework */; };
+		8C521093251AD19D009CC78D /* RMStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C871A4221A3DA4A00FBF89F /* RMStore.framework */; };
+		8C521094251AD1A9009CC78D /* UICKeyChainStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C871A4421A3DA4A00FBF89F /* UICKeyChainStore.framework */; };
+		8C521095251AD1B1009CC78D /* IQKeyboardManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C871A3A21A3DA4A00FBF89F /* IQKeyboardManager.framework */; };
+		8C521096251AD1B6009CC78D /* Pods_Holdover_Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C871A4021A3DA4A00FBF89F /* Pods_Holdover_Calculator.framework */; };
+		8C521097251AD1BA009CC78D /* RMStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C871A4221A3DA4A00FBF89F /* RMStore.framework */; };
+		8C521098251AD1BE009CC78D /* UICKeyChainStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C871A4421A3DA4A00FBF89F /* UICKeyChainStore.framework */; };
+		8C521099251AD1CD009CC78D /* Pods_Holdover_Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C871A4021A3DA4A00FBF89F /* Pods_Holdover_Calculator.framework */; };
+		8C6AB65A21ACBEF500D8C205 /* RightScroll.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB61621ACBEAC00D8C205 /* RightScroll.png */; };
+		8C6AB65B21ACBEF500D8C205 /* Stopwatch Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB61721ACBEAC00D8C205 /* Stopwatch Black.png */; };
+		8C6AB65C21ACBEF500D8C205 /* About.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB61821ACBEAD00D8C205 /* About.png */; };
+		8C6AB65D21ACBEF500D8C205 /* Stopwatch Disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB61921ACBEAE00D8C205 /* Stopwatch Disabled.png */; };
+		8C6AB65E21ACBEF500D8C205 /* Lower Case.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB61A21ACBEAF00D8C205 /* Lower Case.png */; };
+		8C6AB65F21ACBEF500D8C205 /* Apple Store.webarchive in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB61B21ACBEB000D8C205 /* Apple Store.webarchive */; };
+		8C6AB66021ACBEF500D8C205 /* hoticon_nogrid_1024_1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB61C21ACBEB100D8C205 /* hoticon_nogrid_1024_1024.jpg */; };
+		8C6AB66121ACBEF500D8C205 /* CircleCheckMark.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB61D21ACBEB200D8C205 /* CircleCheckMark.png */; };
+		8C6AB66221ACBEF500D8C205 /* Fluid Droplet Red.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB61E21ACBEB300D8C205 /* Fluid Droplet Red.png */; };
+		8C6AB66321ACBEF500D8C205 /* Purchase.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB61F21ACBEB400D8C205 /* Purchase.png */; };
+		8C6AB66421ACBEF500D8C205 /* HOT Images.pages in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB62021ACBEB500D8C205 /* HOT Images.pages */; };
+		8C6AB66521ACBEF500D8C205 /* Cogged Wheeel.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB62121ACBEB600D8C205 /* Cogged Wheeel.png */; };
+		8C6AB66621ACBEF500D8C205 /* Canada Flag Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB62221ACBEB700D8C205 /* Canada Flag Icon.png */; };
+		8C6AB66721ACBEF500D8C205 /* iMessage Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB62321ACBEB800D8C205 /* iMessage Icon.png */; };
+		8C6AB66821ACBEF500D8C205 /* Down Scroll.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB62421ACBEB800D8C205 /* Down Scroll.png */; };
+		8C6AB66921ACBEF500D8C205 /* hoticon_nogrid_1024_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB62521ACBEB900D8C205 /* hoticon_nogrid_1024_1024.png */; };
+		8C6AB66A21ACBEF500D8C205 /* Questions or Feedback.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB62621ACBEBA00D8C205 /* Questions or Feedback.png */; };
+		8C6AB66B21ACBEF500D8C205 /* Stopwatch Enabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB62721ACBEBB00D8C205 /* Stopwatch Enabled.png */; };
+		8C6AB66C21ACBEF500D8C205 /* Legal.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB62821ACBEBC00D8C205 /* Legal.png */; };
+		8C6AB66D21ACBEF500D8C205 /* Menu Pointer.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB62921ACBEBD00D8C205 /* Menu Pointer.png */; };
+		8C6AB66E21ACBEF500D8C205 /* Upper Case.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB62A21ACBEBE00D8C205 /* Upper Case.png */; };
+		8C6AB66F21ACBEF500D8C205 /* Aircraft Grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB62B21ACBEBF00D8C205 /* Aircraft Grey.png */; };
+		8C6AB67021ACBEF500D8C205 /* Swipe or Tap.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB62C21ACBEC000D8C205 /* Swipe or Tap.png */; };
+		8C6AB67121ACBEF500D8C205 /* Back To Conditions.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB62D21ACBEC100D8C205 /* Back To Conditions.png */; };
+		8C6AB67221ACBEF500D8C205 /* iPadBackground_Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB62E21ACBEC200D8C205 /* iPadBackground_Landscape.png */; };
+		8C6AB67321ACBEF500D8C205 /* Stopwatch Green.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB62F21ACBEC300D8C205 /* Stopwatch Green.png */; };
+		8C6AB67421ACBEF500D8C205 /* Mail Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB63021ACBEC300D8C205 /* Mail Icon.png */; };
+		8C6AB67521ACBEF500D8C205 /* Handshake.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB63121ACBEC400D8C205 /* Handshake.png */; };
+		8C6AB67621ACBEF500D8C205 /* Snowflake Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB63221ACBEC500D8C205 /* Snowflake Blue.png */; };
+		8C6AB67721ACBEF500D8C205 /* CurrentPosition3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB63321ACBEC600D8C205 /* CurrentPosition3.png */; };
+		8C6AB67821ACBEF500D8C205 /* Icon-App-76x76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB63521ACBECA00D8C205 /* Icon-App-76x76@3x.png */; };
+		8C6AB67921ACBEF500D8C205 /* Not Now Enabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB63621ACBECB00D8C205 /* Not Now Enabled.png */; };
+		8C6AB67A21ACBEF500D8C205 /* LeftScroll.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB63721ACBECB00D8C205 /* LeftScroll.png */; };
+		8C6AB67B21ACBEF500D8C205 /* FB-fLogo-Blue-printpackaging.tif in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB63821ACBECD00D8C205 /* FB-fLogo-Blue-printpackaging.tif */; };
+		8C6AB67C21ACBEF500D8C205 /* Aircraft Red.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB63921ACBECE00D8C205 /* Aircraft Red.png */; };
+		8C6AB67D21ACBEF500D8C205 /* iPhoneBackground_Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB63A21ACBECF00D8C205 /* iPhoneBackground_Landscape.png */; };
+		8C6AB67E21ACBEF500D8C205 /* Help Holdover.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB63B21ACBED800D8C205 /* Help Holdover.png */; };
+		8C6AB67F21ACBEF500D8C205 /* Fluid Droplet Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB63C21ACBEDA00D8C205 /* Fluid Droplet Blue.png */; };
+		8C6AB68021ACBEF500D8C205 /* Chart Cautions.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB63D21ACBEDB00D8C205 /* Chart Cautions.png */; };
+		8C6AB68121ACBEF500D8C205 /* StopButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB63E21ACBEDC00D8C205 /* StopButton.png */; };
+		8C6AB68221ACBEF500D8C205 /* Conditions Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB63F21ACBEDD00D8C205 /* Conditions Button.png */; };
+		8C6AB68321ACBEF500D8C205 /* Help Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB64021ACBEDD00D8C205 /* Help Icon.png */; };
+		8C6AB68421ACBEF500D8C205 /* InfoProcedure.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB64121ACBEDE00D8C205 /* InfoProcedure.png */; };
+		8C6AB68521ACBEF500D8C205 /* Info Page Icons.odg in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB64221ACBEDF00D8C205 /* Info Page Icons.odg */; };
+		8C6AB68621ACBEF500D8C205 /* Advanced Aircrew Academy Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB64321ACBEE000D8C205 /* Advanced Aircrew Academy Logo.png */; };
+		8C6AB68721ACBEF500D8C205 /* Aircraft Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB64421ACBEE100D8C205 /* Aircraft Blue.png */; };
+		8C6AB68821ACBEF500D8C205 /* Snowflake Grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB64521ACBEE200D8C205 /* Snowflake Grey.png */; };
+		8C6AB68921ACBEF500D8C205 /* Up Scroll.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB64621ACBEE300D8C205 /* Up Scroll.png */; };
+		8C6AB68A21ACBEF500D8C205 /* Snowflake Red.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB64721ACBEE400D8C205 /* Snowflake Red.png */; };
+		8C6AB68B21ACBEF500D8C205 /* EnterCode.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB64821ACBEE500D8C205 /* EnterCode.png */; };
+		8C6AB68C21ACBEF500D8C205 /* US Flag Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB64921ACBEE600D8C205 /* US Flag Icon.png */; };
+		8C6AB68D21ACBEF500D8C205 /* PlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB64A21ACBEE700D8C205 /* PlayButton.png */; };
+		8C6AB68E21ACBEF500D8C205 /* Snowflake Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB64B21ACBEE800D8C205 /* Snowflake Black.png */; };
+		8C6AB68F21ACBEF500D8C205 /* Twitter_logo_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB64C21ACBEE900D8C205 /* Twitter_logo_white.png */; };
+		8C6AB69021ACBEF500D8C205 /* ConditionsButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB64D21ACBEEA00D8C205 /* ConditionsButton.png */; };
+		8C6AB69121ACBEF500D8C205 /* Fluid Droplet Grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB64E21ACBEEB00D8C205 /* Fluid Droplet Grey.png */; };
+		8C6AB69221ACBEF500D8C205 /* ConditionsButton 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB64F21ACBEEB00D8C205 /* ConditionsButton 2.png */; };
+		8C6AB69321ACBEF500D8C205 /* Kilo Lima Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB65021ACBEEC00D8C205 /* Kilo Lima Logo.png */; };
+		8C6AB69421ACBEF500D8C205 /* Help Conditions.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB65121ACBEED00D8C205 /* Help Conditions.png */; };
+		8C6AB69521ACBEF500D8C205 /* Not Now Disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB65221ACBEEE00D8C205 /* Not Now Disabled.png */; };
+		8C6AB69621ACBEF500D8C205 /* LeftArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB65321ACBEEF00D8C205 /* LeftArrow.png */; };
+		8C6AB69721ACBEF500D8C205 /* iPadBackground_Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB65421ACBEF000D8C205 /* iPadBackground_Portrait.png */; };
+		8C6AB69821ACBEF500D8C205 /* RightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB65521ACBEF100D8C205 /* RightArrow.png */; };
+		8C6AB69921ACBEF500D8C205 /* Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB65621ACBEF200D8C205 /* Menu.png */; };
+		8C6AB69A21ACBEF500D8C205 /* info icon6.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB65721ACBEF300D8C205 /* info icon6.png */; };
+		8C6AB69B21ACBEF500D8C205 /* Holdover Calculator 2013 Images.pages in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB65821ACBEF400D8C205 /* Holdover Calculator 2013 Images.pages */; };
+		8C6AB69C21ACBEF500D8C205 /* iPhoneBackground_Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB65921ACBEF500D8C205 /* iPhoneBackground_Portrait.png */; };
+		8C6AB6B721ACC00600D8C205 /* App Instructions iPad Page 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB69D21ACBFEF00D8C205 /* App Instructions iPad Page 6.png */; };
+		8C6AB6B821ACC00600D8C205 /* App Instructions iPad Page 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB69E21ACBFF000D8C205 /* App Instructions iPad Page 3.png */; };
+		8C6AB6B921ACC00600D8C205 /* App Instructions iPad Page 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB69F21ACBFF100D8C205 /* App Instructions iPad Page 10.png */; };
+		8C6AB6BA21ACC00600D8C205 /* App Instructions iPad Page 23.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6A021ACBFF200D8C205 /* App Instructions iPad Page 23.png */; };
+		8C6AB6BB21ACC00600D8C205 /* App Instructions iPad Page 17.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6A121ACBFF300D8C205 /* App Instructions iPad Page 17.png */; };
+		8C6AB6BC21ACC00600D8C205 /* App Instructions iPad Page 21.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6A221ACBFF400D8C205 /* App Instructions iPad Page 21.png */; };
+		8C6AB6BD21ACC00600D8C205 /* App Instructions iPad Page 15.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6A321ACBFF500D8C205 /* App Instructions iPad Page 15.png */; };
+		8C6AB6BE21ACC00600D8C205 /* App Instructions iPad Page 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6A421ACBFF600D8C205 /* App Instructions iPad Page 2.png */; };
+		8C6AB6BF21ACC00600D8C205 /* App Instructions iPad Page 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6A521ACBFF700D8C205 /* App Instructions iPad Page 9.png */; };
+		8C6AB6C021ACC00600D8C205 /* App Instructions iPad Page 26.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6A621ACBFF700D8C205 /* App Instructions iPad Page 26.png */; };
+		8C6AB6C121ACC00600D8C205 /* App Instructions iPad Page 19.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6A721ACBFF800D8C205 /* App Instructions iPad Page 19.png */; };
+		8C6AB6C221ACC00600D8C205 /* App Instructions iPad Page 20.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6A821ACBFF900D8C205 /* App Instructions iPad Page 20.png */; };
+		8C6AB6C321ACC00600D8C205 /* App Instructions iPad Page 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6A921ACBFFA00D8C205 /* App Instructions iPad Page 5.png */; };
+		8C6AB6C421ACC00600D8C205 /* App Instructions iPad Page 25.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6AA21ACBFFB00D8C205 /* App Instructions iPad Page 25.png */; };
+		8C6AB6C521ACC00600D8C205 /* App Instructions iPad Page 22.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6AB21ACBFFC00D8C205 /* App Instructions iPad Page 22.png */; };
+		8C6AB6C621ACC00600D8C205 /* App Instructions iPad Page 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6AC21ACBFFD00D8C205 /* App Instructions iPad Page 4.png */; };
+		8C6AB6C721ACC00600D8C205 /* App Instructions iPad Page 13.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6AD21ACBFFE00D8C205 /* App Instructions iPad Page 13.png */; };
+		8C6AB6C821ACC00600D8C205 /* App Instructions iPad Page 14.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6AE21ACBFFF00D8C205 /* App Instructions iPad Page 14.png */; };
+		8C6AB6C921ACC00600D8C205 /* App Instructions iPad Page 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6AF21ACBFFF00D8C205 /* App Instructions iPad Page 11.png */; };
+		8C6AB6CA21ACC00600D8C205 /* App Instructions iPad Page 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6B021ACC00000D8C205 /* App Instructions iPad Page 7.png */; };
+		8C6AB6CB21ACC00600D8C205 /* App Instructions iPad Page 24.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6B121ACC00100D8C205 /* App Instructions iPad Page 24.png */; };
+		8C6AB6CC21ACC00600D8C205 /* App Instructions iPad Page 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6B221ACC00200D8C205 /* App Instructions iPad Page 8.png */; };
+		8C6AB6CD21ACC00600D8C205 /* App Instructions iPad Page 16.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6B321ACC00300D8C205 /* App Instructions iPad Page 16.png */; };
+		8C6AB6CE21ACC00600D8C205 /* App Instructions iPad Page 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6B421ACC00400D8C205 /* App Instructions iPad Page 1.png */; };
+		8C6AB6CF21ACC00600D8C205 /* App Instructions iPad Page 12.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6B521ACC00500D8C205 /* App Instructions iPad Page 12.png */; };
+		8C6AB6D021ACC00600D8C205 /* App Instructions iPad Page 18.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6B621ACC00500D8C205 /* App Instructions iPad Page 18.png */; };
+		8C6AB6F021ACC04000D8C205 /* App Instructions iPhone Page 25.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6D221ACC02700D8C205 /* App Instructions iPhone Page 25.png */; };
+		8C6AB6F121ACC04000D8C205 /* App Instructions iPhone Page 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6D321ACC02800D8C205 /* App Instructions iPhone Page 5.png */; };
+		8C6AB6F221ACC04000D8C205 /* App Instructions iPhone Page 19.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6D421ACC02800D8C205 /* App Instructions iPhone Page 19.png */; };
+		8C6AB6F321ACC04000D8C205 /* App Instructions iPhone Page 26.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6D521ACC02900D8C205 /* App Instructions iPhone Page 26.png */; };
+		8C6AB6F421ACC04000D8C205 /* App Instructions iPhone Page 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6D621ACC02A00D8C205 /* App Instructions iPhone Page 6.png */; };
+		8C6AB6F521ACC04000D8C205 /* App Instructions iPhone Page 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6D721ACC02B00D8C205 /* App Instructions iPhone Page 11.png */; };
+		8C6AB6F621ACC04000D8C205 /* App Instructions iPhone Page 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6D821ACC02C00D8C205 /* App Instructions iPhone Page 3.png */; };
+		8C6AB6F721ACC04000D8C205 /* App Instructions iPhone Page 17.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6D921ACC02D00D8C205 /* App Instructions iPhone Page 17.png */; };
+		8C6AB6F821ACC04000D8C205 /* App Instructions iPhone Page 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6DA21ACC02E00D8C205 /* App Instructions iPhone Page 7.png */; };
+		8C6AB6F921ACC04000D8C205 /* App Instructions iPhone Page 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6DB21ACC02E00D8C205 /* App Instructions iPhone Page 2.png */; };
+		8C6AB6FA21ACC04000D8C205 /* App Instructions iPhone Page 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6DC21ACC02F00D8C205 /* App Instructions iPhone Page 4.png */; };
+		8C6AB6FB21ACC04000D8C205 /* App Instructions iPhone Page 27.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6DD21ACC03000D8C205 /* App Instructions iPhone Page 27.png */; };
+		8C6AB6FC21ACC04000D8C205 /* App Instructions iPhone Page 16.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6DE21ACC03100D8C205 /* App Instructions iPhone Page 16.png */; };
+		8C6AB6FD21ACC04000D8C205 /* App Instructions iPhone Page 18.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6DF21ACC03200D8C205 /* App Instructions iPhone Page 18.png */; };
+		8C6AB6FE21ACC04000D8C205 /* App Instructions iPhone Page 22.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6E021ACC03300D8C205 /* App Instructions iPhone Page 22.png */; };
+		8C6AB6FF21ACC04000D8C205 /* App Instructions iPhone Page 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6E121ACC03400D8C205 /* App Instructions iPhone Page 8.png */; };
+		8C6AB70021ACC04000D8C205 /* App Instructions iPhone Page 28.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6E221ACC03400D8C205 /* App Instructions iPhone Page 28.png */; };
+		8C6AB70121ACC04000D8C205 /* App Instructions iPhone Page 24.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6E321ACC03500D8C205 /* App Instructions iPhone Page 24.png */; };
+		8C6AB70221ACC04000D8C205 /* App Instructions iPhone Page 12.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6E421ACC03600D8C205 /* App Instructions iPhone Page 12.png */; };
+		8C6AB70321ACC04000D8C205 /* App Instructions iPhone Page 20.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6E521ACC03700D8C205 /* App Instructions iPhone Page 20.png */; };
+		8C6AB70421ACC04000D8C205 /* App Instructions iPhone Page 21.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6E621ACC03800D8C205 /* App Instructions iPhone Page 21.png */; };
+		8C6AB70521ACC04000D8C205 /* App Instructions iPhone Page 14.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6E721ACC03900D8C205 /* App Instructions iPhone Page 14.png */; };
+		8C6AB70621ACC04000D8C205 /* App Instructions iPhone Page 15.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6E821ACC03A00D8C205 /* App Instructions iPhone Page 15.png */; };
+		8C6AB70721ACC04000D8C205 /* App Instructions iPhone Page 13.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6E921ACC03A00D8C205 /* App Instructions iPhone Page 13.png */; };
+		8C6AB70821ACC04000D8C205 /* App Instructions iPhone Page 29.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6EA21ACC03B00D8C205 /* App Instructions iPhone Page 29.png */; };
+		8C6AB70921ACC04000D8C205 /* App Instructions iPhone Page 30.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6EB21ACC03C00D8C205 /* App Instructions iPhone Page 30.png */; };
+		8C6AB70A21ACC04000D8C205 /* App Instructions iPhone Page 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6EC21ACC03D00D8C205 /* App Instructions iPhone Page 9.png */; };
+		8C6AB70B21ACC04000D8C205 /* App Instructions iPhone Page 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6ED21ACC03E00D8C205 /* App Instructions iPhone Page 10.png */; };
+		8C6AB70C21ACC04000D8C205 /* App Instructions iPhone Page 23.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6EE21ACC03F00D8C205 /* App Instructions iPhone Page 23.png */; };
+		8C6AB70D21ACC04000D8C205 /* App Instructions iPhone Page 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB6EF21ACC04000D8C205 /* App Instructions iPhone Page 1.png */; };
+		8C6AB71521ACE06000D8C205 /* Alarm 5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB70F21ACE06000D8C205 /* Alarm 5.wav */; };
+		8C6AB71621ACE06000D8C205 /* Alarm 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB71021ACE06000D8C205 /* Alarm 2.wav */; };
+		8C6AB71721ACE06000D8C205 /* Alarm 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB71121ACE06000D8C205 /* Alarm 1.wav */; };
+		8C6AB71821ACE06000D8C205 /* Alarm 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB71221ACE06000D8C205 /* Alarm 3.wav */; };
+		8C6AB71921ACE06000D8C205 /* Alarm 6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB71321ACE06000D8C205 /* Alarm 6.wav */; };
+		8C6AB71A21ACE06000D8C205 /* Alarm 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8C6AB71421ACE06000D8C205 /* Alarm 4.wav */; };
+		8C95FECA2519AFDA00F27964 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C871A3821A3DA4A00FBF89F /* Bolts.framework */; };
+		8C95FECB2519AFE100F27964 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C871A3821A3DA4A00FBF89F /* Bolts.framework */; };
+		8C95FF0C2519B05300F27964 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C871A3C21A3DA4A00FBF89F /* Parse.framework */; };
+		8C95FF0D2519B05800F27964 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C871A3C21A3DA4A00FBF89F /* Parse.framework */; };
+		8CBAEDC621A0A8F700E0E34C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CBAEDC521A0A8F700E0E34C /* Images.xcassets */; };
+		8CBAEE2421A0AA4F00E0E34C /* Type_I_Fluid.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEDC821A0AA2400E0E34C /* Type_I_Fluid.m */; };
+		8CBAEE2521A0AA4F00E0E34C /* HOT_CalculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEDCB21A0AA2500E0E34C /* HOT_CalculatorAppDelegate.m */; };
+		8CBAEE2621A0AA4F00E0E34C /* Rate Our App.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8CBAEDCC21A0AA2600E0E34C /* Rate Our App.pdf */; };
+		8CBAEE2721A0AA4F00E0E34C /* FluidNamePickerRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEDCD21A0AA2600E0E34C /* FluidNamePickerRow.m */; };
+		8CBAEE2821A0AA4F00E0E34C /* infoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEDCF21A0AA2700E0E34C /* infoViewController.m */; };
+		8CBAEE2921A0AA4F00E0E34C /* WX.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEDD021A0AA2700E0E34C /* WX.m */; };
+		8CBAEE2A21A0AA4F00E0E34C /* ViewLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEDD121A0AA2700E0E34C /* ViewLogin.m */; };
+		8CBAEE2B21A0AA4F00E0E34C /* HOT.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEDD221A0AA2800E0E34C /* HOT.m */; };
+		8CBAEE2C21A0AA4F00E0E34C /* Sound Off.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CBAEDD321A0AA2800E0E34C /* Sound Off.png */; };
+		8CBAEE2D21A0AA4F00E0E34C /* DisclaimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEDD421A0AA2800E0E34C /* DisclaimerViewController.m */; };
+		8CBAEE2E21A0AA4F00E0E34C /* RenewSubscriptionView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CBAEDD521A0AA2900E0E34C /* RenewSubscriptionView_iPad.xib */; };
+		8CBAEE2F21A0AA4F00E0E34C /* ConditionsViewController_AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEDD621A0AA2900E0E34C /* ConditionsViewController_AutoLayout.m */; };
+		8CBAEE3121A0AA4F00E0E34C /* Type_II_Fluid.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEDD821A0AA2A00E0E34C /* Type_II_Fluid.m */; };
+		8CBAEE3321A0AA4F00E0E34C /* FluidNamePickerRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CBAEDDB21A0AA2B00E0E34C /* FluidNamePickerRow.xib */; };
+		8CBAEE3521A0AA4F00E0E34C /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEDDD21A0AA2B00E0E34C /* AboutViewController.m */; };
+		8CBAEE3621A0AA4F00E0E34C /* Holdover Calculator Tell A Friend email.html in Resources */ = {isa = PBXBuildFile; fileRef = 8CBAEDDE21A0AA2C00E0E34C /* Holdover Calculator Tell A Friend email.html */; };
+		8CBAEE3721A0AA4F00E0E34C /* DateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEDDF21A0AA2C00E0E34C /* DateManager.m */; };
+		8CBAEE3821A0AA4F00E0E34C /* LocationKeyboard_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CBAEDE121A0AA2D00E0E34C /* LocationKeyboard_iPad.xib */; };
+		8CBAEE3921A0AA4F00E0E34C /* SettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEDE221A0AA2D00E0E34C /* SettingsView.m */; };
+		8CBAEE3A21A0AA4F00E0E34C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEDE521A0AA2E00E0E34C /* Reachability.m */; };
+		8CBAEE3B21A0AA4F00E0E34C /* RenewSubscriptionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CBAEDE621A0AA2F00E0E34C /* RenewSubscriptionView.xib */; };
+		8CBAEE3C21A0AA4F00E0E34C /* SponsorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEDE721A0AA2F00E0E34C /* SponsorViewController.m */; };
+		8CBAEE3E21A0AA4F00E0E34C /* LocationKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CBAEDE921A0AA3000E0E34C /* LocationKeyboard.xib */; };
+		8CBAEE4021A0AA4F00E0E34C /* CautionsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CBAEDEB21A0AA3000E0E34C /* CautionsView.xib */; };
+		8CBAEE4121A0AA4F00E0E34C /* Warning Triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CBAEDEC21A0AA3100E0E34C /* Warning Triangle.png */; };
+		8CBAEE4221A0AA4F00E0E34C /* CautionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEDED21A0AA3100E0E34C /* CautionsView.m */; };
+		8CBAEE4321A0AA4F00E0E34C /* Constants_and_Variables.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEDEF21A0AA3200E0E34C /* Constants_and_Variables.m */; };
+		8CBAEE4621A0AA4F00E0E34C /* Beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CBAEDF621A0AA3400E0E34C /* Beep.wav */; };
+		8CBAEE4821A0AA4F00E0E34C /* Anti_IceFluid.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEDFA21A0AA3800E0E34C /* Anti_IceFluid.m */; };
+		8CBAEE4921A0AA4F00E0E34C /* HOTViewController_AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEDFB21A0AA3800E0E34C /* HOTViewController_AutoLayout.m */; };
+		8CBAEE4A21A0AA4F00E0E34C /* RenewSubscriptionView_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEDFE21A0AA3A00E0E34C /* RenewSubscriptionView_iPad.m */; };
+		8CBAEE4B21A0AA4F00E0E34C /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEE0021A0AA3B00E0E34C /* HelpViewController.m */; };
+		8CBAEE4C21A0AA4F00E0E34C /* LocationKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEE0121A0AA3B00E0E34C /* LocationKeyboard.m */; };
+		8CBAEE4E21A0AA4F00E0E34C /* InAppProducts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CBAEE0321A0AA3C00E0E34C /* InAppProducts.plist */; };
+		8CBAEE4F21A0AA4F00E0E34C /* ConditionsViewBackgroundImage.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8CBAEE0421A0AA3D00E0E34C /* ConditionsViewBackgroundImage.gif */; };
+		8CBAEE5121A0AA4F00E0E34C /* LoginSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEE0921A0AA4100E0E34C /* LoginSegue.m */; };
+		8CBAEE5321A0AA4F00E0E34C /* viewLogin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CBAEE0C21A0AA4300E0E34C /* viewLogin.xib */; };
+		8CBAEE5421A0AA4F00E0E34C /* RenewSubscriptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEE0E21A0AA4400E0E34C /* RenewSubscriptionView.m */; };
+		8CBAEE5521A0AA4F00E0E34C /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEE1321A0AA4700E0E34C /* LoginView.m */; };
+		8CBAEE5621A0AA4F00E0E34C /* Type_III_Fluid.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEE1421A0AA4700E0E34C /* Type_III_Fluid.m */; };
+		8CBAEE5821A0AA4F00E0E34C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CBAEE1821A0AA4900E0E34C /* MainStoryboard.storyboard */; };
+		8CBAEE5A21A0AA4F00E0E34C /* Sound On.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CBAEE1F21A0AA4D00E0E34C /* Sound On.png */; };
+		8CBAEE5C21A0AA4F00E0E34C /* HelpView-Conditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEE2121A0AA4E00E0E34C /* HelpView-Conditions.m */; };
+		8CBAEE5D21A0AA4F00E0E34C /* AppManagementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEE2221A0AA4E00E0E34C /* AppManagementViewController.m */; };
+		8CBAEE5E21A0AA4F00E0E34C /* Type_IV_Fluid.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBAEE2321A0AA4F00E0E34C /* Type_IV_Fluid.m */; };
+		8CF8FAAA21CBF1FB000AD840 /* Delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF8FAA921CBF1F7000AD840 /* Delete.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C27409F21A09F8200C0F414 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C27407B21A09F8100C0F414 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C27408221A09F8100C0F414;
+			remoteInfo = "Holdover Calculator";
+		};
+		8C2740AA21A09F8300C0F414 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C27407B21A09F8100C0F414 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C27408221A09F8100C0F414;
+			remoteInfo = "Holdover Calculator";
+		};
+		8C871A3721A3DA4A00FBF89F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C398FAD21A2FA7F008A0D61 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C07EAE857B6BF840A8BA4C995C2D80B9;
+			remoteInfo = Bolts;
+		};
+		8C871A3921A3DA4A00FBF89F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C398FAD21A2FA7F008A0D61 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 08DE512BE108D1048D541D5C3C9BCF76;
+			remoteInfo = IQKeyboardManager;
+		};
+		8C871A3B21A3DA4A00FBF89F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C398FAD21A2FA7F008A0D61 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 710E72FE61C8D12BFABA11C5798BCA73;
+			remoteInfo = Parse;
+		};
+		8C871A3D21A3DA4A00FBF89F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C398FAD21A2FA7F008A0D61 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B84904E3DA9F685249910D1F8986A260;
+			remoteInfo = "Parse-Parse";
+		};
+		8C871A3F21A3DA4A00FBF89F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C398FAD21A2FA7F008A0D61 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 21B40ECDFDBAABED0A0F7F8F473160FB;
+			remoteInfo = "Pods-Holdover Calculator";
+		};
+		8C871A4121A3DA4A00FBF89F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C398FAD21A2FA7F008A0D61 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 057B3D0CF18B40502ED5E9BB20316FB9;
+			remoteInfo = RMStore;
+		};
+		8C871A4321A3DA4A00FBF89F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C398FAD21A2FA7F008A0D61 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F3526F0B65AE5DC9D0238A7FA10E734;
+			remoteInfo = UICKeyChainStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C1E7FD821AB6E5B00ABF875 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		8C1E7FE121AB6E5F00ABF875 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		8C27408321A09F8100C0F414 /* Holdover Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Holdover Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C27408921A09F8100C0F414 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8C27408A21A09F8100C0F414 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8C27408D21A09F8100C0F414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C27409021A09F8100C0F414 /* Holdover_Calculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Holdover_Calculator.xcdatamodel; sourceTree = "<group>"; };
+		8C27409221A09F8200C0F414 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C27409521A09F8200C0F414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C27409821A09F8200C0F414 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C27409E21A09F8200C0F414 /* Holdover CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Holdover CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2740A221A09F8200C0F414 /* Holdover_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Holdover_CalculatorTests.m; sourceTree = "<group>"; };
+		8C2740A421A09F8300C0F414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C2740A921A09F8300C0F414 /* Holdover CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Holdover CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2740AD21A09F8300C0F414 /* Holdover_CalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Holdover_CalculatorUITests.m; sourceTree = "<group>"; };
+		8C2740AF21A09F8300C0F414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C280C0821AFA1C500110414 /* KiloLima Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "KiloLima Logo.png"; path = "Holdover Calculator/Images.xcassets/LaunchImage.launchimage/KiloLima Logo.png"; sourceTree = SOURCE_ROOT; };
+		8C398FAD21A2FA7F008A0D61 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		8C398FAF21A3A2CE008A0D61 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8C398FB121A3B9AA008A0D61 /* libBolts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libBolts.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C398FB321A3B9AA008A0D61 /* libIQKeyboardManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libIQKeyboardManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C398FB521A3B9AA008A0D61 /* libParse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libParse.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C398FB721A3B9AA008A0D61 /* libRMStore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRMStore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C398FB921A3B9AA008A0D61 /* libUICKeyChainStore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libUICKeyChainStore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C6AB61621ACBEAC00D8C205 /* RightScroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RightScroll.png; sourceTree = "<group>"; };
+		8C6AB61721ACBEAC00D8C205 /* Stopwatch Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stopwatch Black.png"; sourceTree = "<group>"; };
+		8C6AB61821ACBEAD00D8C205 /* About.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = About.png; sourceTree = "<group>"; };
+		8C6AB61921ACBEAE00D8C205 /* Stopwatch Disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stopwatch Disabled.png"; sourceTree = "<group>"; };
+		8C6AB61A21ACBEAF00D8C205 /* Lower Case.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lower Case.png"; sourceTree = "<group>"; };
+		8C6AB61B21ACBEB000D8C205 /* Apple Store.webarchive */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "Apple Store.webarchive"; sourceTree = "<group>"; };
+		8C6AB61C21ACBEB100D8C205 /* hoticon_nogrid_1024_1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hoticon_nogrid_1024_1024.jpg; sourceTree = "<group>"; };
+		8C6AB61D21ACBEB200D8C205 /* CircleCheckMark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CircleCheckMark.png; sourceTree = "<group>"; };
+		8C6AB61E21ACBEB300D8C205 /* Fluid Droplet Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fluid Droplet Red.png"; sourceTree = "<group>"; };
+		8C6AB61F21ACBEB400D8C205 /* Purchase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Purchase.png; sourceTree = "<group>"; };
+		8C6AB62021ACBEB500D8C205 /* HOT Images.pages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "HOT Images.pages"; sourceTree = "<group>"; };
+		8C6AB62121ACBEB600D8C205 /* Cogged Wheeel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cogged Wheeel.png"; sourceTree = "<group>"; };
+		8C6AB62221ACBEB700D8C205 /* Canada Flag Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Canada Flag Icon.png"; sourceTree = "<group>"; };
+		8C6AB62321ACBEB800D8C205 /* iMessage Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iMessage Icon.png"; sourceTree = "<group>"; };
+		8C6AB62421ACBEB800D8C205 /* Down Scroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Down Scroll.png"; sourceTree = "<group>"; };
+		8C6AB62521ACBEB900D8C205 /* hoticon_nogrid_1024_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hoticon_nogrid_1024_1024.png; sourceTree = "<group>"; };
+		8C6AB62621ACBEBA00D8C205 /* Questions or Feedback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Questions or Feedback.png"; sourceTree = "<group>"; };
+		8C6AB62721ACBEBB00D8C205 /* Stopwatch Enabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stopwatch Enabled.png"; sourceTree = "<group>"; };
+		8C6AB62821ACBEBC00D8C205 /* Legal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Legal.png; sourceTree = "<group>"; };
+		8C6AB62921ACBEBD00D8C205 /* Menu Pointer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Menu Pointer.png"; sourceTree = "<group>"; };
+		8C6AB62A21ACBEBE00D8C205 /* Upper Case.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Upper Case.png"; sourceTree = "<group>"; };
+		8C6AB62B21ACBEBF00D8C205 /* Aircraft Grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Aircraft Grey.png"; sourceTree = "<group>"; };
+		8C6AB62C21ACBEC000D8C205 /* Swipe or Tap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Swipe or Tap.png"; sourceTree = "<group>"; };
+		8C6AB62D21ACBEC100D8C205 /* Back To Conditions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back To Conditions.png"; sourceTree = "<group>"; };
+		8C6AB62E21ACBEC200D8C205 /* iPadBackground_Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadBackground_Landscape.png; sourceTree = "<group>"; };
+		8C6AB62F21ACBEC300D8C205 /* Stopwatch Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stopwatch Green.png"; sourceTree = "<group>"; };
+		8C6AB63021ACBEC300D8C205 /* Mail Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mail Icon.png"; sourceTree = "<group>"; };
+		8C6AB63121ACBEC400D8C205 /* Handshake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Handshake.png; sourceTree = "<group>"; };
+		8C6AB63221ACBEC500D8C205 /* Snowflake Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Snowflake Blue.png"; sourceTree = "<group>"; };
+		8C6AB63321ACBEC600D8C205 /* CurrentPosition3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CurrentPosition3.png; sourceTree = "<group>"; };
+		8C6AB63521ACBECA00D8C205 /* Icon-App-76x76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@3x.png"; sourceTree = "<group>"; };
+		8C6AB63621ACBECB00D8C205 /* Not Now Enabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Not Now Enabled.png"; sourceTree = "<group>"; };
+		8C6AB63721ACBECB00D8C205 /* LeftScroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LeftScroll.png; sourceTree = "<group>"; };
+		8C6AB63821ACBECD00D8C205 /* FB-fLogo-Blue-printpackaging.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "FB-fLogo-Blue-printpackaging.tif"; sourceTree = "<group>"; };
+		8C6AB63921ACBECE00D8C205 /* Aircraft Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Aircraft Red.png"; sourceTree = "<group>"; };
+		8C6AB63A21ACBECF00D8C205 /* iPhoneBackground_Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneBackground_Landscape.png; sourceTree = "<group>"; };
+		8C6AB63B21ACBED800D8C205 /* Help Holdover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Help Holdover.png"; sourceTree = "<group>"; };
+		8C6AB63C21ACBEDA00D8C205 /* Fluid Droplet Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fluid Droplet Blue.png"; sourceTree = "<group>"; };
+		8C6AB63D21ACBEDB00D8C205 /* Chart Cautions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chart Cautions.png"; sourceTree = "<group>"; };
+		8C6AB63E21ACBEDC00D8C205 /* StopButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StopButton.png; sourceTree = "<group>"; };
+		8C6AB63F21ACBEDD00D8C205 /* Conditions Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Conditions Button.png"; sourceTree = "<group>"; };
+		8C6AB64021ACBEDD00D8C205 /* Help Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Help Icon.png"; sourceTree = "<group>"; };
+		8C6AB64121ACBEDE00D8C205 /* InfoProcedure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InfoProcedure.png; sourceTree = "<group>"; };
+		8C6AB64221ACBEDF00D8C205 /* Info Page Icons.odg */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Info Page Icons.odg"; sourceTree = "<group>"; };
+		8C6AB64321ACBEE000D8C205 /* Advanced Aircrew Academy Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Advanced Aircrew Academy Logo.png"; sourceTree = "<group>"; };
+		8C6AB64421ACBEE100D8C205 /* Aircraft Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Aircraft Blue.png"; sourceTree = "<group>"; };
+		8C6AB64521ACBEE200D8C205 /* Snowflake Grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Snowflake Grey.png"; sourceTree = "<group>"; };
+		8C6AB64621ACBEE300D8C205 /* Up Scroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Up Scroll.png"; sourceTree = "<group>"; };
+		8C6AB64721ACBEE400D8C205 /* Snowflake Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Snowflake Red.png"; sourceTree = "<group>"; };
+		8C6AB64821ACBEE500D8C205 /* EnterCode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EnterCode.png; sourceTree = "<group>"; };
+		8C6AB64921ACBEE600D8C205 /* US Flag Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "US Flag Icon.png"; sourceTree = "<group>"; };
+		8C6AB64A21ACBEE700D8C205 /* PlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayButton.png; sourceTree = "<group>"; };
+		8C6AB64B21ACBEE800D8C205 /* Snowflake Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Snowflake Black.png"; sourceTree = "<group>"; };
+		8C6AB64C21ACBEE900D8C205 /* Twitter_logo_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitter_logo_white.png; sourceTree = "<group>"; };
+		8C6AB64D21ACBEEA00D8C205 /* ConditionsButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ConditionsButton.png; sourceTree = "<group>"; };
+		8C6AB64E21ACBEEB00D8C205 /* Fluid Droplet Grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fluid Droplet Grey.png"; sourceTree = "<group>"; };
+		8C6AB64F21ACBEEB00D8C205 /* ConditionsButton 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ConditionsButton 2.png"; sourceTree = "<group>"; };
+		8C6AB65021ACBEEC00D8C205 /* Kilo Lima Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kilo Lima Logo.png"; sourceTree = "<group>"; };
+		8C6AB65121ACBEED00D8C205 /* Help Conditions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Help Conditions.png"; sourceTree = "<group>"; };
+		8C6AB65221ACBEEE00D8C205 /* Not Now Disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Not Now Disabled.png"; sourceTree = "<group>"; };
+		8C6AB65321ACBEEF00D8C205 /* LeftArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LeftArrow.png; sourceTree = "<group>"; };
+		8C6AB65421ACBEF000D8C205 /* iPadBackground_Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadBackground_Portrait.png; sourceTree = "<group>"; };
+		8C6AB65521ACBEF100D8C205 /* RightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RightArrow.png; sourceTree = "<group>"; };
+		8C6AB65621ACBEF200D8C205 /* Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Menu.png; sourceTree = "<group>"; };
+		8C6AB65721ACBEF300D8C205 /* info icon6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info icon6.png"; sourceTree = "<group>"; };
+		8C6AB65821ACBEF400D8C205 /* Holdover Calculator 2013 Images.pages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Holdover Calculator 2013 Images.pages"; sourceTree = "<group>"; };
+		8C6AB65921ACBEF500D8C205 /* iPhoneBackground_Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneBackground_Portrait.png; sourceTree = "<group>"; };
+		8C6AB69D21ACBFEF00D8C205 /* App Instructions iPad Page 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPad Page 6.png"; sourceTree = "<group>"; };
+		8C6AB69E21ACBFF000D8C205 /* App Instructions iPad Page 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPad Page 3.png"; sourceTree = "<group>"; };
+		8C6AB69F21ACBFF100D8C205 /* App Instructions iPad Page 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPad Page 10.png"; sourceTree = "<group>"; };
+		8C6AB6A021ACBFF200D8C205 /* App Instructions iPad Page 23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPad Page 23.png"; sourceTree = "<group>"; };
+		8C6AB6A121ACBFF300D8C205 /* App Instructions iPad Page 17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPad Page 17.png"; sourceTree = "<group>"; };
+		8C6AB6A221ACBFF400D8C205 /* App Instructions iPad Page 21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPad Page 21.png"; sourceTree = "<group>"; };
+		8C6AB6A321ACBFF500D8C205 /* App Instructions iPad Page 15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPad Page 15.png"; sourceTree = "<group>"; };
+		8C6AB6A421ACBFF600D8C205 /* App Instructions iPad Page 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPad Page 2.png"; sourceTree = "<group>"; };
+		8C6AB6A521ACBFF700D8C205 /* App Instructions iPad Page 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPad Page 9.png"; sourceTree = "<group>"; };
+		8C6AB6A621ACBFF700D8C205 /* App Instructions iPad Page 26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPad Page 26.png"; sourceTree = "<group>"; };
+		8C6AB6A721ACBFF800D8C205 /* App Instructions iPad Page 19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPad Page 19.png"; sourceTree = "<group>"; };
+		8C6AB6A821ACBFF900D8C205 /* App Instructions iPad Page 20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPad Page 20.png"; sourceTree = "<group>"; };
+		8C6AB6A921ACBFFA00D8C205 /* App Instructions iPad Page 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPad Page 5.png"; sourceTree = "<group>"; };
+		8C6AB6AA21ACBFFB00D8C205 /* App Instructions iPad Page 25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPad Page 25.png"; sourceTree = "<group>"; };
+		8C6AB6AB21ACBFFC00D8C205 /* App Instructions iPad Page 22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPad Page 22.png"; sourceTree = "<group>"; };
+		8C6AB6AC21ACBFFD00D8C205 /* App Instructions iPad Page 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPad Page 4.png"; sourceTree = "<group>"; };
+		8C6AB6AD21ACBFFE00D8C205 /* App Instructions iPad Page 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPad Page 13.png"; sourceTree = "<group>"; };
+		8C6AB6AE21ACBFFF00D8C205 /* App Instructions iPad Page 14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPad Page 14.png"; sourceTree = "<group>"; };
+		8C6AB6AF21ACBFFF00D8C205 /* App Instructions iPad Page 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPad Page 11.png"; sourceTree = "<group>"; };
+		8C6AB6B021ACC00000D8C205 /* App Instructions iPad Page 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPad Page 7.png"; sourceTree = "<group>"; };
+		8C6AB6B121ACC00100D8C205 /* App Instructions iPad Page 24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPad Page 24.png"; sourceTree = "<group>"; };
+		8C6AB6B221ACC00200D8C205 /* App Instructions iPad Page 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPad Page 8.png"; sourceTree = "<group>"; };
+		8C6AB6B321ACC00300D8C205 /* App Instructions iPad Page 16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPad Page 16.png"; sourceTree = "<group>"; };
+		8C6AB6B421ACC00400D8C205 /* App Instructions iPad Page 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPad Page 1.png"; sourceTree = "<group>"; };
+		8C6AB6B521ACC00500D8C205 /* App Instructions iPad Page 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPad Page 12.png"; sourceTree = "<group>"; };
+		8C6AB6B621ACC00500D8C205 /* App Instructions iPad Page 18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPad Page 18.png"; sourceTree = "<group>"; };
+		8C6AB6D221ACC02700D8C205 /* App Instructions iPhone Page 25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPhone Page 25.png"; sourceTree = "<group>"; };
+		8C6AB6D321ACC02800D8C205 /* App Instructions iPhone Page 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPhone Page 5.png"; sourceTree = "<group>"; };
+		8C6AB6D421ACC02800D8C205 /* App Instructions iPhone Page 19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPhone Page 19.png"; sourceTree = "<group>"; };
+		8C6AB6D521ACC02900D8C205 /* App Instructions iPhone Page 26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPhone Page 26.png"; sourceTree = "<group>"; };
+		8C6AB6D621ACC02A00D8C205 /* App Instructions iPhone Page 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPhone Page 6.png"; sourceTree = "<group>"; };
+		8C6AB6D721ACC02B00D8C205 /* App Instructions iPhone Page 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPhone Page 11.png"; sourceTree = "<group>"; };
+		8C6AB6D821ACC02C00D8C205 /* App Instructions iPhone Page 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPhone Page 3.png"; sourceTree = "<group>"; };
+		8C6AB6D921ACC02D00D8C205 /* App Instructions iPhone Page 17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPhone Page 17.png"; sourceTree = "<group>"; };
+		8C6AB6DA21ACC02E00D8C205 /* App Instructions iPhone Page 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPhone Page 7.png"; sourceTree = "<group>"; };
+		8C6AB6DB21ACC02E00D8C205 /* App Instructions iPhone Page 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPhone Page 2.png"; sourceTree = "<group>"; };
+		8C6AB6DC21ACC02F00D8C205 /* App Instructions iPhone Page 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPhone Page 4.png"; sourceTree = "<group>"; };
+		8C6AB6DD21ACC03000D8C205 /* App Instructions iPhone Page 27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPhone Page 27.png"; sourceTree = "<group>"; };
+		8C6AB6DE21ACC03100D8C205 /* App Instructions iPhone Page 16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPhone Page 16.png"; sourceTree = "<group>"; };
+		8C6AB6DF21ACC03200D8C205 /* App Instructions iPhone Page 18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPhone Page 18.png"; sourceTree = "<group>"; };
+		8C6AB6E021ACC03300D8C205 /* App Instructions iPhone Page 22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPhone Page 22.png"; sourceTree = "<group>"; };
+		8C6AB6E121ACC03400D8C205 /* App Instructions iPhone Page 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPhone Page 8.png"; sourceTree = "<group>"; };
+		8C6AB6E221ACC03400D8C205 /* App Instructions iPhone Page 28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPhone Page 28.png"; sourceTree = "<group>"; };
+		8C6AB6E321ACC03500D8C205 /* App Instructions iPhone Page 24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPhone Page 24.png"; sourceTree = "<group>"; };
+		8C6AB6E421ACC03600D8C205 /* App Instructions iPhone Page 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPhone Page 12.png"; sourceTree = "<group>"; };
+		8C6AB6E521ACC03700D8C205 /* App Instructions iPhone Page 20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPhone Page 20.png"; sourceTree = "<group>"; };
+		8C6AB6E621ACC03800D8C205 /* App Instructions iPhone Page 21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPhone Page 21.png"; sourceTree = "<group>"; };
+		8C6AB6E721ACC03900D8C205 /* App Instructions iPhone Page 14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPhone Page 14.png"; sourceTree = "<group>"; };
+		8C6AB6E821ACC03A00D8C205 /* App Instructions iPhone Page 15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPhone Page 15.png"; sourceTree = "<group>"; };
+		8C6AB6E921ACC03A00D8C205 /* App Instructions iPhone Page 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPhone Page 13.png"; sourceTree = "<group>"; };
+		8C6AB6EA21ACC03B00D8C205 /* App Instructions iPhone Page 29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPhone Page 29.png"; sourceTree = "<group>"; };
+		8C6AB6EB21ACC03C00D8C205 /* App Instructions iPhone Page 30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPhone Page 30.png"; sourceTree = "<group>"; };
+		8C6AB6EC21ACC03D00D8C205 /* App Instructions iPhone Page 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPhone Page 9.png"; sourceTree = "<group>"; };
+		8C6AB6ED21ACC03E00D8C205 /* App Instructions iPhone Page 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPhone Page 10.png"; sourceTree = "<group>"; };
+		8C6AB6EE21ACC03F00D8C205 /* App Instructions iPhone Page 23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPhone Page 23.png"; sourceTree = "<group>"; };
+		8C6AB6EF21ACC04000D8C205 /* App Instructions iPhone Page 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Instructions iPhone Page 1.png"; sourceTree = "<group>"; };
+		8C6AB70F21ACE06000D8C205 /* Alarm 5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Alarm 5.wav"; path = "Holdover Calculator/Alarms/Alarm 5.wav"; sourceTree = SOURCE_ROOT; };
+		8C6AB71021ACE06000D8C205 /* Alarm 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Alarm 2.wav"; path = "Holdover Calculator/Alarms/Alarm 2.wav"; sourceTree = SOURCE_ROOT; };
+		8C6AB71121ACE06000D8C205 /* Alarm 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Alarm 1.wav"; path = "Holdover Calculator/Alarms/Alarm 1.wav"; sourceTree = SOURCE_ROOT; };
+		8C6AB71221ACE06000D8C205 /* Alarm 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Alarm 3.wav"; path = "Holdover Calculator/Alarms/Alarm 3.wav"; sourceTree = SOURCE_ROOT; };
+		8C6AB71321ACE06000D8C205 /* Alarm 6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Alarm 6.wav"; path = "Holdover Calculator/Alarms/Alarm 6.wav"; sourceTree = SOURCE_ROOT; };
+		8C6AB71421ACE06000D8C205 /* Alarm 4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Alarm 4.wav"; path = "Holdover Calculator/Alarms/Alarm 4.wav"; sourceTree = SOURCE_ROOT; };
+		8C7141A9251C4BEA009D11BD /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = "Pods/Target Support Files/RMStore/openssl-1.0.1e/lib/libcrypto.a"; sourceTree = "<group>"; };
+		8C7141B2251C4BEA009D11BD /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = "Pods/Target Support Files/RMStore/openssl-1.0.1e/lib/libssl.a"; sourceTree = "<group>"; };
+		8C7146252524DB01009D11BD /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = "Pods/OpenSSL-Universal/ios/lib/libcrypto.a"; sourceTree = "<group>"; };
+		8C7146262524DB01009D11BD /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = "Pods/OpenSSL-Universal/ios/lib/libssl.a"; sourceTree = "<group>"; };
+		8C71465E2524DEB7009D11BD /* OpenSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenSSL.framework; path = "../../OpenSSL-master/Frameworks/ios/OpenSSL.framework"; sourceTree = "<group>"; };
+		8C810A3C251AF45900042AE4 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = "Pods/RMStore/openssl-1.0.1e/lib/libcrypto.a"; sourceTree = "<group>"; };
+		8C93DBC521A7C63E00CD6920 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CBAEDC521A0A8F700E0E34C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8CBAEDC721A0AA2400E0E34C /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		8CBAEDC821A0AA2400E0E34C /* Type_I_Fluid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Type_I_Fluid.m; sourceTree = "<group>"; };
+		8CBAEDC921A0AA2500E0E34C /* DateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateManager.h; sourceTree = "<group>"; };
+		8CBAEDCA21A0AA2500E0E34C /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		8CBAEDCB21A0AA2500E0E34C /* HOT_CalculatorAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOT_CalculatorAppDelegate.m; sourceTree = "<group>"; };
+		8CBAEDCC21A0AA2600E0E34C /* Rate Our App.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Rate Our App.pdf"; sourceTree = "<group>"; };
+		8CBAEDCD21A0AA2600E0E34C /* FluidNamePickerRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FluidNamePickerRow.m; sourceTree = "<group>"; };
+		8CBAEDCE21A0AA2600E0E34C /* Anti_IceFluid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Anti_IceFluid.h; sourceTree = "<group>"; };
+		8CBAEDCF21A0AA2700E0E34C /* infoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = infoViewController.m; sourceTree = "<group>"; };
+		8CBAEDD021A0AA2700E0E34C /* WX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WX.m; sourceTree = "<group>"; };
+		8CBAEDD121A0AA2700E0E34C /* ViewLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewLogin.m; sourceTree = "<group>"; };
+		8CBAEDD221A0AA2800E0E34C /* HOT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOT.m; sourceTree = "<group>"; };
+		8CBAEDD321A0AA2800E0E34C /* Sound Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sound Off.png"; sourceTree = "<group>"; };
+		8CBAEDD421A0AA2800E0E34C /* DisclaimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclaimerViewController.m; sourceTree = "<group>"; };
+		8CBAEDD521A0AA2900E0E34C /* RenewSubscriptionView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RenewSubscriptionView_iPad.xib; sourceTree = "<group>"; };
+		8CBAEDD621A0AA2900E0E34C /* ConditionsViewController_AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConditionsViewController_AutoLayout.m; sourceTree = "<group>"; };
+		8CBAEDD821A0AA2A00E0E34C /* Type_II_Fluid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Type_II_Fluid.m; sourceTree = "<group>"; };
+		8CBAEDD921A0AA2A00E0E34C /* Holdover Calculator-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Holdover Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		8CBAEDDB21A0AA2B00E0E34C /* FluidNamePickerRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FluidNamePickerRow.xib; sourceTree = "<group>"; };
+		8CBAEDDD21A0AA2B00E0E34C /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		8CBAEDDE21A0AA2C00E0E34C /* Holdover Calculator Tell A Friend email.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Holdover Calculator Tell A Friend email.html"; sourceTree = "<group>"; };
+		8CBAEDDF21A0AA2C00E0E34C /* DateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateManager.m; sourceTree = "<group>"; };
+		8CBAEDE021A0AA2C00E0E34C /* HOTViewController_AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOTViewController_AutoLayout.h; sourceTree = "<group>"; };
+		8CBAEDE121A0AA2D00E0E34C /* LocationKeyboard_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationKeyboard_iPad.xib; sourceTree = "<group>"; };
+		8CBAEDE221A0AA2D00E0E34C /* SettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsView.m; sourceTree = "<group>"; };
+		8CBAEDE321A0AA2D00E0E34C /* DisclaimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclaimerViewController.h; sourceTree = "<group>"; };
+		8CBAEDE421A0AA2E00E0E34C /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		8CBAEDE521A0AA2E00E0E34C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		8CBAEDE621A0AA2F00E0E34C /* RenewSubscriptionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RenewSubscriptionView.xib; sourceTree = "<group>"; };
+		8CBAEDE721A0AA2F00E0E34C /* SponsorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SponsorViewController.m; sourceTree = "<group>"; };
+		8CBAEDE921A0AA3000E0E34C /* LocationKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationKeyboard.xib; sourceTree = "<group>"; };
+		8CBAEDEB21A0AA3000E0E34C /* CautionsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CautionsView.xib; sourceTree = "<group>"; };
+		8CBAEDEC21A0AA3100E0E34C /* Warning Triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Warning Triangle.png"; sourceTree = "<group>"; };
+		8CBAEDED21A0AA3100E0E34C /* CautionsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CautionsView.m; sourceTree = "<group>"; };
+		8CBAEDEE21A0AA3100E0E34C /* HelpView-Conditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HelpView-Conditions.h"; sourceTree = "<group>"; };
+		8CBAEDEF21A0AA3200E0E34C /* Constants_and_Variables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants_and_Variables.m; sourceTree = "<group>"; };
+		8CBAEDF121A0AA3200E0E34C /* Type_IV_Fluid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type_IV_Fluid.h; sourceTree = "<group>"; };
+		8CBAEDF221A0AA3300E0E34C /* infoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = infoViewController.h; sourceTree = "<group>"; };
+		8CBAEDF321A0AA3300E0E34C /* ConditionsViewController_AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConditionsViewController_AutoLayout.h; sourceTree = "<group>"; };
+		8CBAEDF521A0AA3400E0E34C /* Constants_and_Variables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants_and_Variables.h; sourceTree = "<group>"; };
+		8CBAEDF621A0AA3400E0E34C /* Beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Beep.wav; sourceTree = "<group>"; };
+		8CBAEDF821A0AA3600E0E34C /* HOT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOT.h; sourceTree = "<group>"; };
+		8CBAEDFA21A0AA3800E0E34C /* Anti_IceFluid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Anti_IceFluid.m; sourceTree = "<group>"; };
+		8CBAEDFB21A0AA3800E0E34C /* HOTViewController_AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOTViewController_AutoLayout.m; sourceTree = "<group>"; };
+		8CBAEDFC21A0AA3900E0E34C /* ViewLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewLogin.h; sourceTree = "<group>"; };
+		8CBAEDFE21A0AA3A00E0E34C /* RenewSubscriptionView_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RenewSubscriptionView_iPad.m; sourceTree = "<group>"; };
+		8CBAEDFF21A0AA3A00E0E34C /* HOT_CalculatorAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOT_CalculatorAppDelegate.h; sourceTree = "<group>"; };
+		8CBAEE0021A0AA3B00E0E34C /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		8CBAEE0121A0AA3B00E0E34C /* LocationKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationKeyboard.m; sourceTree = "<group>"; };
+		8CBAEE0321A0AA3C00E0E34C /* InAppProducts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = InAppProducts.plist; sourceTree = "<group>"; };
+		8CBAEE0421A0AA3D00E0E34C /* ConditionsViewBackgroundImage.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ConditionsViewBackgroundImage.gif; sourceTree = "<group>"; };
+		8CBAEE0521A0AA3D00E0E34C /* SponsorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SponsorViewController.h; sourceTree = "<group>"; };
+		8CBAEE0621A0AA3E00E0E34C /* AppManagementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppManagementViewController.h; sourceTree = "<group>"; };
+		8CBAEE0821A0AA4000E0E34C /* FluidNamePickerRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluidNamePickerRow.h; sourceTree = "<group>"; };
+		8CBAEE0921A0AA4100E0E34C /* LoginSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginSegue.m; sourceTree = "<group>"; };
+		8CBAEE0A21A0AA4200E0E34C /* Advanced Aircrew Academy Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Advanced Aircrew Academy Logo.png"; sourceTree = "<group>"; };
+		8CBAEE0B21A0AA4200E0E34C /* Type_III_Fluid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type_III_Fluid.h; sourceTree = "<group>"; };
+		8CBAEE0C21A0AA4300E0E34C /* viewLogin.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = viewLogin.xib; sourceTree = "<group>"; };
+		8CBAEE0D21A0AA4300E0E34C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		8CBAEE0E21A0AA4400E0E34C /* RenewSubscriptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RenewSubscriptionView.m; sourceTree = "<group>"; };
+		8CBAEE0F21A0AA4400E0E34C /* RenewSubscriptionView_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenewSubscriptionView_iPad.h; sourceTree = "<group>"; };
+		8CBAEE1021A0AA4500E0E34C /* SettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsView.h; sourceTree = "<group>"; };
+		8CBAEE1121A0AA4600E0E34C /* Type_I_Fluid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type_I_Fluid.h; sourceTree = "<group>"; };
+		8CBAEE1221A0AA4600E0E34C /* RenewSubscriptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenewSubscriptionView.h; sourceTree = "<group>"; };
+		8CBAEE1321A0AA4700E0E34C /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		8CBAEE1421A0AA4700E0E34C /* Type_III_Fluid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Type_III_Fluid.m; sourceTree = "<group>"; };
+		8CBAEE1721A0AA4900E0E34C /* CautionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CautionsView.h; sourceTree = "<group>"; };
+		8CBAEE1821A0AA4900E0E34C /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8CBAEE1921A0AA4A00E0E34C /* LoginSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginSegue.h; sourceTree = "<group>"; };
+		8CBAEE1A21A0AA4A00E0E34C /* Type_II_Fluid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type_II_Fluid.h; sourceTree = "<group>"; };
+		8CBAEE1B21A0AA4B00E0E34C /* LocationKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationKeyboard.h; sourceTree = "<group>"; };
+		8CBAEE1C21A0AA4B00E0E34C /* WX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WX.h; sourceTree = "<group>"; };
+		8CBAEE1F21A0AA4D00E0E34C /* Sound On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sound On.png"; sourceTree = "<group>"; };
+		8CBAEE2121A0AA4E00E0E34C /* HelpView-Conditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HelpView-Conditions.m"; sourceTree = "<group>"; };
+		8CBAEE2221A0AA4E00E0E34C /* AppManagementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppManagementViewController.m; sourceTree = "<group>"; };
+		8CBAEE2321A0AA4F00E0E34C /* Type_IV_Fluid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Type_IV_Fluid.m; sourceTree = "<group>"; };
+		8CE18470251AC85500B1C0F9 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = "Pods/RMStore/openssl-1.0.1e/lib/libssl.a"; sourceTree = "<group>"; };
+		8CF8FAA921CBF1F7000AD840 /* Delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Delete.png; sourceTree = "<group>"; };
+		A7AB5EFC34F0FDB3A8C3A52A /* Pods_Holdover_Calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Holdover_Calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31D8834301B18B9D4C14933 /* Pods-Holdover Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Holdover Calculator.release.xcconfig"; path = "Target Support Files/Pods-Holdover Calculator/Pods-Holdover Calculator.release.xcconfig"; sourceTree = "<group>"; };
+		F5212F3373A69A1FC2F8F540 /* Pods-Holdover Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Holdover Calculator.debug.xcconfig"; path = "Target Support Files/Pods-Holdover Calculator/Pods-Holdover Calculator.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C27408021A09F8100C0F414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C27409B21A09F8200C0F414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C521099251AD1CD009CC78D /* Pods_Holdover_Calculator.framework in Frameworks */,
+				8C521094251AD1A9009CC78D /* UICKeyChainStore.framework in Frameworks */,
+				8C521093251AD19D009CC78D /* RMStore.framework in Frameworks */,
+				8C521092251AD199009CC78D /* IQKeyboardManager.framework in Frameworks */,
+				8C95FF0C2519B05300F27964 /* Parse.framework in Frameworks */,
+				8C95FECA2519AFDA00F27964 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2740A621A09F8300C0F414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C521098251AD1BE009CC78D /* UICKeyChainStore.framework in Frameworks */,
+				8C521097251AD1BA009CC78D /* RMStore.framework in Frameworks */,
+				8C521096251AD1B6009CC78D /* Pods_Holdover_Calculator.framework in Frameworks */,
+				8C521095251AD1B1009CC78D /* IQKeyboardManager.framework in Frameworks */,
+				8C95FF0D2519B05800F27964 /* Parse.framework in Frameworks */,
+				8C95FECB2519AFE100F27964 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FD6FB7579FA13430547D992 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C71465E2524DEB7009D11BD /* OpenSSL.framework */,
+				8C810A3C251AF45900042AE4 /* libcrypto.a */,
+				8CE18470251AC85500B1C0F9 /* libssl.a */,
+				8C7141A9251C4BEA009D11BD /* libcrypto.a */,
+				8C7141B2251C4BEA009D11BD /* libssl.a */,
+				8C7146252524DB01009D11BD /* libcrypto.a */,
+				8C7146262524DB01009D11BD /* libssl.a */,
+				8C1E7FE121AB6E5F00ABF875 /* GameKit.framework */,
+				8C1E7FD821AB6E5B00ABF875 /* StoreKit.framework */,
+				8C398FB121A3B9AA008A0D61 /* libBolts.a */,
+				8C398FB321A3B9AA008A0D61 /* libIQKeyboardManager.a */,
+				8C398FB521A3B9AA008A0D61 /* libParse.a */,
+				8C398FB721A3B9AA008A0D61 /* libRMStore.a */,
+				8C398FB921A3B9AA008A0D61 /* libUICKeyChainStore.a */,
+				8C398FAD21A2FA7F008A0D61 /* Pods.xcodeproj */,
+				A7AB5EFC34F0FDB3A8C3A52A /* Pods_Holdover_Calculator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C001B0C21B0DBEA003417E3 /* Alarms */ = {
+			isa = PBXGroup;
+			children = (
+				8C6AB71121ACE06000D8C205 /* Alarm 1.wav */,
+				8C6AB71021ACE06000D8C205 /* Alarm 2.wav */,
+				8C6AB71221ACE06000D8C205 /* Alarm 3.wav */,
+				8C6AB71421ACE06000D8C205 /* Alarm 4.wav */,
+				8C6AB70F21ACE06000D8C205 /* Alarm 5.wav */,
+				8C6AB71321ACE06000D8C205 /* Alarm 6.wav */,
+			);
+			path = Alarms;
+			sourceTree = "<group>";
+		};
+		8C27407A21A09F8100C0F414 = {
+			isa = PBXGroup;
+			children = (
+				8C27408521A09F8100C0F414 /* Holdover Calculator */,
+				8C2740A121A09F8200C0F414 /* Holdover CalculatorTests */,
+				8C2740AC21A09F8300C0F414 /* Holdover CalculatorUITests */,
+				8C27408421A09F8100C0F414 /* Products */,
+				2FD6FB7579FA13430547D992 /* Frameworks */,
+				B0D1BE9C2377B2423F897561 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		8C27408421A09F8100C0F414 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C27408321A09F8100C0F414 /* Holdover Calculator.app */,
+				8C27409E21A09F8200C0F414 /* Holdover CalculatorTests.xctest */,
+				8C2740A921A09F8300C0F414 /* Holdover CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C27408521A09F8100C0F414 /* Holdover Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				8C001B0C21B0DBEA003417E3 /* Alarms */,
+				8C6AB61521ACBE8500D8C205 /* Images */,
+				8C93DBC521A7C63E00CD6920 /* Info.plist */,
+				8CBAEDC721A0AA2400E0E34C /* AboutViewController.h */,
+				8CBAEDDD21A0AA2B00E0E34C /* AboutViewController.m */,
+				8CBAEE0A21A0AA4200E0E34C /* Advanced Aircrew Academy Logo.png */,
+				8CBAEDCE21A0AA2600E0E34C /* Anti_IceFluid.h */,
+				8CBAEDFA21A0AA3800E0E34C /* Anti_IceFluid.m */,
+				8CBAEE0621A0AA3E00E0E34C /* AppManagementViewController.h */,
+				8CBAEE2221A0AA4E00E0E34C /* AppManagementViewController.m */,
+				8CBAEDF621A0AA3400E0E34C /* Beep.wav */,
+				8CBAEE1721A0AA4900E0E34C /* CautionsView.h */,
+				8CBAEDED21A0AA3100E0E34C /* CautionsView.m */,
+				8CBAEDEB21A0AA3000E0E34C /* CautionsView.xib */,
+				8CBAEDF321A0AA3300E0E34C /* ConditionsViewController_AutoLayout.h */,
+				8CBAEDD621A0AA2900E0E34C /* ConditionsViewController_AutoLayout.m */,
+				8CBAEDF521A0AA3400E0E34C /* Constants_and_Variables.h */,
+				8CBAEDEF21A0AA3200E0E34C /* Constants_and_Variables.m */,
+				8CBAEDC921A0AA2500E0E34C /* DateManager.h */,
+				8CBAEDDF21A0AA2C00E0E34C /* DateManager.m */,
+				8CBAEDE321A0AA2D00E0E34C /* DisclaimerViewController.h */,
+				8CBAEDD421A0AA2800E0E34C /* DisclaimerViewController.m */,
+				8CBAEE0821A0AA4000E0E34C /* FluidNamePickerRow.h */,
+				8CBAEDCD21A0AA2600E0E34C /* FluidNamePickerRow.m */,
+				8CBAEDDB21A0AA2B00E0E34C /* FluidNamePickerRow.xib */,
+				8CBAEDEE21A0AA3100E0E34C /* HelpView-Conditions.h */,
+				8CBAEE2121A0AA4E00E0E34C /* HelpView-Conditions.m */,
+				8CBAEDCA21A0AA2500E0E34C /* HelpViewController.h */,
+				8CBAEE0021A0AA3B00E0E34C /* HelpViewController.m */,
+				8CBAEDDE21A0AA2C00E0E34C /* Holdover Calculator Tell A Friend email.html */,
+				8CBAEDD921A0AA2A00E0E34C /* Holdover Calculator-Prefix.pch */,
+				8CBAEDFF21A0AA3A00E0E34C /* HOT_CalculatorAppDelegate.h */,
+				8CBAEDCB21A0AA2500E0E34C /* HOT_CalculatorAppDelegate.m */,
+				8CBAEDF821A0AA3600E0E34C /* HOT.h */,
+				8CBAEDD221A0AA2800E0E34C /* HOT.m */,
+				8CBAEDE021A0AA2C00E0E34C /* HOTViewController_AutoLayout.h */,
+				8CBAEDFB21A0AA3800E0E34C /* HOTViewController_AutoLayout.m */,
+				8CBAEE0321A0AA3C00E0E34C /* InAppProducts.plist */,
+				8CBAEDF221A0AA3300E0E34C /* infoViewController.h */,
+				8CBAEDCF21A0AA2700E0E34C /* infoViewController.m */,
+				8CBAEDE121A0AA2D00E0E34C /* LocationKeyboard_iPad.xib */,
+				8CBAEE1B21A0AA4B00E0E34C /* LocationKeyboard.h */,
+				8CBAEE0121A0AA3B00E0E34C /* LocationKeyboard.m */,
+				8CBAEDE921A0AA3000E0E34C /* LocationKeyboard.xib */,
+				8CBAEE1921A0AA4A00E0E34C /* LoginSegue.h */,
+				8CBAEDE421A0AA2E00E0E34C /* LoginView.h */,
+				8CBAEE1321A0AA4700E0E34C /* LoginView.m */,
+				8CBAEE1821A0AA4900E0E34C /* MainStoryboard.storyboard */,
+				8CBAEDCC21A0AA2600E0E34C /* Rate Our App.pdf */,
+				8CBAEE0D21A0AA4300E0E34C /* Reachability.h */,
+				8CBAEDE521A0AA2E00E0E34C /* Reachability.m */,
+				8CBAEE0F21A0AA4400E0E34C /* RenewSubscriptionView_iPad.h */,
+				8CBAEDFE21A0AA3A00E0E34C /* RenewSubscriptionView_iPad.m */,
+				8CBAEDD521A0AA2900E0E34C /* RenewSubscriptionView_iPad.xib */,
+				8CBAEE1221A0AA4600E0E34C /* RenewSubscriptionView.h */,
+				8CBAEE0E21A0AA4400E0E34C /* RenewSubscriptionView.m */,
+				8CBAEDE621A0AA2F00E0E34C /* RenewSubscriptionView.xib */,
+				8CBAEE0921A0AA4100E0E34C /* LoginSegue.m */,
+				8CBAEE1021A0AA4500E0E34C /* SettingsView.h */,
+				8CBAEDE221A0AA2D00E0E34C /* SettingsView.m */,
+				8CBAEE0521A0AA3D00E0E34C /* SponsorViewController.h */,
+				8CBAEDE721A0AA2F00E0E34C /* SponsorViewController.m */,
+				8CBAEE1121A0AA4600E0E34C /* Type_I_Fluid.h */,
+				8CBAEDC821A0AA2400E0E34C /* Type_I_Fluid.m */,
+				8CBAEE1A21A0AA4A00E0E34C /* Type_II_Fluid.h */,
+				8CBAEDD821A0AA2A00E0E34C /* Type_II_Fluid.m */,
+				8CBAEE0B21A0AA4200E0E34C /* Type_III_Fluid.h */,
+				8CBAEE1421A0AA4700E0E34C /* Type_III_Fluid.m */,
+				8CBAEDF121A0AA3200E0E34C /* Type_IV_Fluid.h */,
+				8CBAEE2321A0AA4F00E0E34C /* Type_IV_Fluid.m */,
+				8CBAEDFC21A0AA3900E0E34C /* ViewLogin.h */,
+				8CBAEDD121A0AA2700E0E34C /* ViewLogin.m */,
+				8CBAEE0C21A0AA4300E0E34C /* viewLogin.xib */,
+				8CBAEE1C21A0AA4B00E0E34C /* WX.h */,
+				8CBAEDD021A0AA2700E0E34C /* WX.m */,
+				8C27408921A09F8100C0F414 /* ViewController.h */,
+				8C27408A21A09F8100C0F414 /* ViewController.m */,
+				8C27408C21A09F8100C0F414 /* Main.storyboard */,
+				8CBAEDC521A0A8F700E0E34C /* Images.xcassets */,
+				8C27409221A09F8200C0F414 /* Assets.xcassets */,
+				8C27409421A09F8200C0F414 /* LaunchScreen.storyboard */,
+				8C27409821A09F8200C0F414 /* main.m */,
+				8C27408F21A09F8100C0F414 /* Holdover_Calculator.xcdatamodeld */,
+			);
+			path = "Holdover Calculator";
+			sourceTree = "<group>";
+		};
+		8C2740A121A09F8200C0F414 /* Holdover CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C2740A221A09F8200C0F414 /* Holdover_CalculatorTests.m */,
+				8C2740A421A09F8300C0F414 /* Info.plist */,
+			);
+			path = "Holdover CalculatorTests";
+			sourceTree = "<group>";
+		};
+		8C2740AC21A09F8300C0F414 /* Holdover CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C2740AD21A09F8300C0F414 /* Holdover_CalculatorUITests.m */,
+				8C2740AF21A09F8300C0F414 /* Info.plist */,
+			);
+			path = "Holdover CalculatorUITests";
+			sourceTree = "<group>";
+		};
+		8C6AB61521ACBE8500D8C205 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8C6AB63421ACBEC900D8C205 /* iPad App Instructions */,
+				8C6AB6D121ACC01200D8C205 /* iPhone App Instructions */,
+				8C6AB61821ACBEAD00D8C205 /* About.png */,
+				8C6AB64321ACBEE000D8C205 /* Advanced Aircrew Academy Logo.png */,
+				8C6AB64421ACBEE100D8C205 /* Aircraft Blue.png */,
+				8C6AB62B21ACBEBF00D8C205 /* Aircraft Grey.png */,
+				8C6AB63921ACBECE00D8C205 /* Aircraft Red.png */,
+				8C6AB61B21ACBEB000D8C205 /* Apple Store.webarchive */,
+				8C6AB62D21ACBEC100D8C205 /* Back To Conditions.png */,
+				8C6AB62221ACBEB700D8C205 /* Canada Flag Icon.png */,
+				8C6AB63D21ACBEDB00D8C205 /* Chart Cautions.png */,
+				8C6AB61D21ACBEB200D8C205 /* CircleCheckMark.png */,
+				8C6AB62121ACBEB600D8C205 /* Cogged Wheeel.png */,
+				8C6AB63F21ACBEDD00D8C205 /* Conditions Button.png */,
+				8C6AB64F21ACBEEB00D8C205 /* ConditionsButton 2.png */,
+				8C6AB64D21ACBEEA00D8C205 /* ConditionsButton.png */,
+				8CBAEE0421A0AA3D00E0E34C /* ConditionsViewBackgroundImage.gif */,
+				8C6AB63321ACBEC600D8C205 /* CurrentPosition3.png */,
+				8C398FAF21A3A2CE008A0D61 /* Default-568h@2x.png */,
+				8CF8FAA921CBF1F7000AD840 /* Delete.png */,
+				8C6AB62421ACBEB800D8C205 /* Down Scroll.png */,
+				8C6AB64821ACBEE500D8C205 /* EnterCode.png */,
+				8C6AB63821ACBECD00D8C205 /* FB-fLogo-Blue-printpackaging.tif */,
+				8C6AB63C21ACBEDA00D8C205 /* Fluid Droplet Blue.png */,
+				8C6AB64E21ACBEEB00D8C205 /* Fluid Droplet Grey.png */,
+				8C6AB61E21ACBEB300D8C205 /* Fluid Droplet Red.png */,
+				8C6AB63121ACBEC400D8C205 /* Handshake.png */,
+				8C6AB65121ACBEED00D8C205 /* Help Conditions.png */,
+				8C6AB63B21ACBED800D8C205 /* Help Holdover.png */,
+				8C6AB64021ACBEDD00D8C205 /* Help Icon.png */,
+				8C6AB65821ACBEF400D8C205 /* Holdover Calculator 2013 Images.pages */,
+				8C6AB62021ACBEB500D8C205 /* HOT Images.pages */,
+				8C6AB61C21ACBEB100D8C205 /* hoticon_nogrid_1024_1024.jpg */,
+				8C6AB62521ACBEB900D8C205 /* hoticon_nogrid_1024_1024.png */,
+				8C6AB63521ACBECA00D8C205 /* Icon-App-76x76@3x.png */,
+				8C6AB62321ACBEB800D8C205 /* iMessage Icon.png */,
+				8C6AB65721ACBEF300D8C205 /* info icon6.png */,
+				8C6AB64221ACBEDF00D8C205 /* Info Page Icons.odg */,
+				8C6AB64121ACBEDE00D8C205 /* InfoProcedure.png */,
+				8C6AB62E21ACBEC200D8C205 /* iPadBackground_Landscape.png */,
+				8C6AB65421ACBEF000D8C205 /* iPadBackground_Portrait.png */,
+				8C6AB63A21ACBECF00D8C205 /* iPhoneBackground_Landscape.png */,
+				8C6AB65921ACBEF500D8C205 /* iPhoneBackground_Portrait.png */,
+				8C6AB65021ACBEEC00D8C205 /* Kilo Lima Logo.png */,
+				8C280C0821AFA1C500110414 /* KiloLima Logo.png */,
+				8C6AB65321ACBEEF00D8C205 /* LeftArrow.png */,
+				8C6AB63721ACBECB00D8C205 /* LeftScroll.png */,
+				8C6AB62821ACBEBC00D8C205 /* Legal.png */,
+				8C6AB61A21ACBEAF00D8C205 /* Lower Case.png */,
+				8C6AB63021ACBEC300D8C205 /* Mail Icon.png */,
+				8C6AB62921ACBEBD00D8C205 /* Menu Pointer.png */,
+				8C6AB65621ACBEF200D8C205 /* Menu.png */,
+				8C6AB65221ACBEEE00D8C205 /* Not Now Disabled.png */,
+				8C6AB63621ACBECB00D8C205 /* Not Now Enabled.png */,
+				8C6AB64A21ACBEE700D8C205 /* PlayButton.png */,
+				8C6AB61F21ACBEB400D8C205 /* Purchase.png */,
+				8C6AB62621ACBEBA00D8C205 /* Questions or Feedback.png */,
+				8C6AB65521ACBEF100D8C205 /* RightArrow.png */,
+				8C6AB61621ACBEAC00D8C205 /* RightScroll.png */,
+				8C6AB64B21ACBEE800D8C205 /* Snowflake Black.png */,
+				8C6AB63221ACBEC500D8C205 /* Snowflake Blue.png */,
+				8C6AB64521ACBEE200D8C205 /* Snowflake Grey.png */,
+				8C6AB64721ACBEE400D8C205 /* Snowflake Red.png */,
+				8CBAEDD321A0AA2800E0E34C /* Sound Off.png */,
+				8CBAEE1F21A0AA4D00E0E34C /* Sound On.png */,
+				8C6AB63E21ACBEDC00D8C205 /* StopButton.png */,
+				8C6AB61721ACBEAC00D8C205 /* Stopwatch Black.png */,
+				8C6AB61921ACBEAE00D8C205 /* Stopwatch Disabled.png */,
+				8C6AB62721ACBEBB00D8C205 /* Stopwatch Enabled.png */,
+				8C6AB62F21ACBEC300D8C205 /* Stopwatch Green.png */,
+				8C6AB62C21ACBEC000D8C205 /* Swipe or Tap.png */,
+				8C6AB64C21ACBEE900D8C205 /* Twitter_logo_white.png */,
+				8C6AB64621ACBEE300D8C205 /* Up Scroll.png */,
+				8C6AB62A21ACBEBE00D8C205 /* Upper Case.png */,
+				8C6AB64921ACBEE600D8C205 /* US Flag Icon.png */,
+				8CBAEDEC21A0AA3100E0E34C /* Warning Triangle.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		8C6AB63421ACBEC900D8C205 /* iPad App Instructions */ = {
+			isa = PBXGroup;
+			children = (
+				8C6AB6B421ACC00400D8C205 /* App Instructions iPad Page 1.png */,
+				8C6AB6A421ACBFF600D8C205 /* App Instructions iPad Page 2.png */,
+				8C6AB69E21ACBFF000D8C205 /* App Instructions iPad Page 3.png */,
+				8C6AB6AC21ACBFFD00D8C205 /* App Instructions iPad Page 4.png */,
+				8C6AB6A921ACBFFA00D8C205 /* App Instructions iPad Page 5.png */,
+				8C6AB69D21ACBFEF00D8C205 /* App Instructions iPad Page 6.png */,
+				8C6AB6B021ACC00000D8C205 /* App Instructions iPad Page 7.png */,
+				8C6AB6B221ACC00200D8C205 /* App Instructions iPad Page 8.png */,
+				8C6AB6A521ACBFF700D8C205 /* App Instructions iPad Page 9.png */,
+				8C6AB69F21ACBFF100D8C205 /* App Instructions iPad Page 10.png */,
+				8C6AB6AF21ACBFFF00D8C205 /* App Instructions iPad Page 11.png */,
+				8C6AB6B521ACC00500D8C205 /* App Instructions iPad Page 12.png */,
+				8C6AB6AD21ACBFFE00D8C205 /* App Instructions iPad Page 13.png */,
+				8C6AB6AE21ACBFFF00D8C205 /* App Instructions iPad Page 14.png */,
+				8C6AB6A321ACBFF500D8C205 /* App Instructions iPad Page 15.png */,
+				8C6AB6B321ACC00300D8C205 /* App Instructions iPad Page 16.png */,
+				8C6AB6A121ACBFF300D8C205 /* App Instructions iPad Page 17.png */,
+				8C6AB6B621ACC00500D8C205 /* App Instructions iPad Page 18.png */,
+				8C6AB6A721ACBFF800D8C205 /* App Instructions iPad Page 19.png */,
+				8C6AB6A821ACBFF900D8C205 /* App Instructions iPad Page 20.png */,
+				8C6AB6A221ACBFF400D8C205 /* App Instructions iPad Page 21.png */,
+				8C6AB6AB21ACBFFC00D8C205 /* App Instructions iPad Page 22.png */,
+				8C6AB6A021ACBFF200D8C205 /* App Instructions iPad Page 23.png */,
+				8C6AB6B121ACC00100D8C205 /* App Instructions iPad Page 24.png */,
+				8C6AB6AA21ACBFFB00D8C205 /* App Instructions iPad Page 25.png */,
+				8C6AB6A621ACBFF700D8C205 /* App Instructions iPad Page 26.png */,
+			);
+			path = "iPad App Instructions";
+			sourceTree = "<group>";
+		};
+		8C6AB6D121ACC01200D8C205 /* iPhone App Instructions */ = {
+			isa = PBXGroup;
+			children = (
+				8C6AB6EF21ACC04000D8C205 /* App Instructions iPhone Page 1.png */,
+				8C6AB6DB21ACC02E00D8C205 /* App Instructions iPhone Page 2.png */,
+				8C6AB6D821ACC02C00D8C205 /* App Instructions iPhone Page 3.png */,
+				8C6AB6DC21ACC02F00D8C205 /* App Instructions iPhone Page 4.png */,
+				8C6AB6D321ACC02800D8C205 /* App Instructions iPhone Page 5.png */,
+				8C6AB6D621ACC02A00D8C205 /* App Instructions iPhone Page 6.png */,
+				8C6AB6DA21ACC02E00D8C205 /* App Instructions iPhone Page 7.png */,
+				8C6AB6E121ACC03400D8C205 /* App Instructions iPhone Page 8.png */,
+				8C6AB6EC21ACC03D00D8C205 /* App Instructions iPhone Page 9.png */,
+				8C6AB6ED21ACC03E00D8C205 /* App Instructions iPhone Page 10.png */,
+				8C6AB6D721ACC02B00D8C205 /* App Instructions iPhone Page 11.png */,
+				8C6AB6E421ACC03600D8C205 /* App Instructions iPhone Page 12.png */,
+				8C6AB6E921ACC03A00D8C205 /* App Instructions iPhone Page 13.png */,
+				8C6AB6E721ACC03900D8C205 /* App Instructions iPhone Page 14.png */,
+				8C6AB6E821ACC03A00D8C205 /* App Instructions iPhone Page 15.png */,
+				8C6AB6DE21ACC03100D8C205 /* App Instructions iPhone Page 16.png */,
+				8C6AB6D921ACC02D00D8C205 /* App Instructions iPhone Page 17.png */,
+				8C6AB6DF21ACC03200D8C205 /* App Instructions iPhone Page 18.png */,
+				8C6AB6D421ACC02800D8C205 /* App Instructions iPhone Page 19.png */,
+				8C6AB6E521ACC03700D8C205 /* App Instructions iPhone Page 20.png */,
+				8C6AB6E621ACC03800D8C205 /* App Instructions iPhone Page 21.png */,
+				8C6AB6E021ACC03300D8C205 /* App Instructions iPhone Page 22.png */,
+				8C6AB6EE21ACC03F00D8C205 /* App Instructions iPhone Page 23.png */,
+				8C6AB6E321ACC03500D8C205 /* App Instructions iPhone Page 24.png */,
+				8C6AB6D221ACC02700D8C205 /* App Instructions iPhone Page 25.png */,
+				8C6AB6D521ACC02900D8C205 /* App Instructions iPhone Page 26.png */,
+				8C6AB6DD21ACC03000D8C205 /* App Instructions iPhone Page 27.png */,
+				8C6AB6E221ACC03400D8C205 /* App Instructions iPhone Page 28.png */,
+				8C6AB6EA21ACC03B00D8C205 /* App Instructions iPhone Page 29.png */,
+				8C6AB6EB21ACC03C00D8C205 /* App Instructions iPhone Page 30.png */,
+			);
+			path = "iPhone App Instructions";
+			sourceTree = "<group>";
+		};
+		8C871A2E21A3DA4A00FBF89F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C871A3821A3DA4A00FBF89F /* Bolts.framework */,
+				8C871A3A21A3DA4A00FBF89F /* IQKeyboardManager.framework */,
+				8C871A3C21A3DA4A00FBF89F /* Parse.framework */,
+				8C871A3E21A3DA4A00FBF89F /* Parse.bundle */,
+				8C871A4021A3DA4A00FBF89F /* Pods_Holdover_Calculator.framework */,
+				8C871A4221A3DA4A00FBF89F /* RMStore.framework */,
+				8C871A4421A3DA4A00FBF89F /* UICKeyChainStore.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0D1BE9C2377B2423F897561 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5212F3373A69A1FC2F8F540 /* Pods-Holdover Calculator.debug.xcconfig */,
+				B31D8834301B18B9D4C14933 /* Pods-Holdover Calculator.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C27408221A09F8100C0F414 /* Holdover Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C2740B221A09F8300C0F414 /* Build configuration list for PBXNativeTarget "Holdover Calculator" */;
+			buildPhases = (
+				56BDF226E7A146CB8A40180D /* [CP] Check Pods Manifest.lock */,
+				8C27407F21A09F8100C0F414 /* Sources */,
+				8C27408021A09F8100C0F414 /* Frameworks */,
+				8C27408121A09F8100C0F414 /* Resources */,
+				D76CFB32500CAFF2D7203FFB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Holdover Calculator";
+			productName = "Holdover Calculator";
+			productReference = 8C27408321A09F8100C0F414 /* Holdover Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C27409D21A09F8200C0F414 /* Holdover CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C2740B521A09F8300C0F414 /* Build configuration list for PBXNativeTarget "Holdover CalculatorTests" */;
+			buildPhases = (
+				8C27409A21A09F8200C0F414 /* Sources */,
+				8C27409B21A09F8200C0F414 /* Frameworks */,
+				8C27409C21A09F8200C0F414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C2740A021A09F8200C0F414 /* PBXTargetDependency */,
+			);
+			name = "Holdover CalculatorTests";
+			productName = "Holdover CalculatorTests";
+			productReference = 8C27409E21A09F8200C0F414 /* Holdover CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C2740A821A09F8300C0F414 /* Holdover CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C2740B821A09F8300C0F414 /* Build configuration list for PBXNativeTarget "Holdover CalculatorUITests" */;
+			buildPhases = (
+				8C2740A521A09F8300C0F414 /* Sources */,
+				8C2740A621A09F8300C0F414 /* Frameworks */,
+				8C2740A721A09F8300C0F414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C2740AB21A09F8300C0F414 /* PBXTargetDependency */,
+			);
+			name = "Holdover CalculatorUITests";
+			productName = "Holdover CalculatorUITests";
+			productReference = 8C2740A921A09F8300C0F414 /* Holdover CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C27407B21A09F8100C0F414 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "Greg Lamb";
+				TargetAttributes = {
+					8C27408221A09F8100C0F414 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.GameCenter.iOS = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
+					8C27409D21A09F8200C0F414 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8C27408221A09F8100C0F414;
+					};
+					8C2740A821A09F8300C0F414 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8C27408221A09F8100C0F414;
+					};
+				};
+			};
+			buildConfigurationList = 8C27407E21A09F8100C0F414 /* Build configuration list for PBXProject "Holdover Calculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C27407A21A09F8100C0F414;
+			productRefGroup = 8C27408421A09F8100C0F414 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8C871A2E21A3DA4A00FBF89F /* Products */;
+					ProjectRef = 8C398FAD21A2FA7F008A0D61 /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8C27408221A09F8100C0F414 /* Holdover Calculator */,
+				8C27409D21A09F8200C0F414 /* Holdover CalculatorTests */,
+				8C2740A821A09F8300C0F414 /* Holdover CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8C871A3821A3DA4A00FBF89F /* Bolts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Bolts.framework;
+			remoteRef = 8C871A3721A3DA4A00FBF89F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8C871A3A21A3DA4A00FBF89F /* IQKeyboardManager.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = IQKeyboardManager.framework;
+			remoteRef = 8C871A3921A3DA4A00FBF89F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8C871A3C21A3DA4A00FBF89F /* Parse.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Parse.framework;
+			remoteRef = 8C871A3B21A3DA4A00FBF89F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8C871A3E21A3DA4A00FBF89F /* Parse.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Parse.bundle;
+			remoteRef = 8C871A3D21A3DA4A00FBF89F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8C871A4021A3DA4A00FBF89F /* Pods_Holdover_Calculator.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_Holdover_Calculator.framework;
+			remoteRef = 8C871A3F21A3DA4A00FBF89F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8C871A4221A3DA4A00FBF89F /* RMStore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RMStore.framework;
+			remoteRef = 8C871A4121A3DA4A00FBF89F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8C871A4421A3DA4A00FBF89F /* UICKeyChainStore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UICKeyChainStore.framework;
+			remoteRef = 8C871A4321A3DA4A00FBF89F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C27408121A09F8100C0F414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6AB71721ACE06000D8C205 /* Alarm 1.wav in Resources */,
+				8C6AB68F21ACBEF500D8C205 /* Twitter_logo_white.png in Resources */,
+				8C6AB69221ACBEF500D8C205 /* ConditionsButton 2.png in Resources */,
+				8C6AB67521ACBEF500D8C205 /* Handshake.png in Resources */,
+				8C6AB67721ACBEF500D8C205 /* CurrentPosition3.png in Resources */,
+				8C6AB66A21ACBEF500D8C205 /* Questions or Feedback.png in Resources */,
+				8C6AB6CE21ACC00600D8C205 /* App Instructions iPad Page 1.png in Resources */,
+				8C6AB6CF21ACC00600D8C205 /* App Instructions iPad Page 12.png in Resources */,
+				8C6AB6BA21ACC00600D8C205 /* App Instructions iPad Page 23.png in Resources */,
+				8C6AB6C321ACC00600D8C205 /* App Instructions iPad Page 5.png in Resources */,
+				8C6AB6BD21ACC00600D8C205 /* App Instructions iPad Page 15.png in Resources */,
+				8C6AB6C421ACC00600D8C205 /* App Instructions iPad Page 25.png in Resources */,
+				8C6AB6B821ACC00600D8C205 /* App Instructions iPad Page 3.png in Resources */,
+				8C6AB6C121ACC00600D8C205 /* App Instructions iPad Page 19.png in Resources */,
+				8C6AB6C621ACC00600D8C205 /* App Instructions iPad Page 4.png in Resources */,
+				8C6AB6B921ACC00600D8C205 /* App Instructions iPad Page 10.png in Resources */,
+				8C6AB6BB21ACC00600D8C205 /* App Instructions iPad Page 17.png in Resources */,
+				8C6AB6CC21ACC00600D8C205 /* App Instructions iPad Page 8.png in Resources */,
+				8C6AB6D021ACC00600D8C205 /* App Instructions iPad Page 18.png in Resources */,
+				8C6AB6C221ACC00600D8C205 /* App Instructions iPad Page 20.png in Resources */,
+				8C6AB6CD21ACC00600D8C205 /* App Instructions iPad Page 16.png in Resources */,
+				8C6AB6BE21ACC00600D8C205 /* App Instructions iPad Page 2.png in Resources */,
+				8C6AB6CA21ACC00600D8C205 /* App Instructions iPad Page 7.png in Resources */,
+				8C6AB6B721ACC00600D8C205 /* App Instructions iPad Page 6.png in Resources */,
+				8C6AB6C921ACC00600D8C205 /* App Instructions iPad Page 11.png in Resources */,
+				8C6AB6C721ACC00600D8C205 /* App Instructions iPad Page 13.png in Resources */,
+				8C6AB6C021ACC00600D8C205 /* App Instructions iPad Page 26.png in Resources */,
+				8C6AB6CB21ACC00600D8C205 /* App Instructions iPad Page 24.png in Resources */,
+				8C6AB6BC21ACC00600D8C205 /* App Instructions iPad Page 21.png in Resources */,
+				8C6AB6C821ACC00600D8C205 /* App Instructions iPad Page 14.png in Resources */,
+				8C6AB6C521ACC00600D8C205 /* App Instructions iPad Page 22.png in Resources */,
+				8C6AB6BF21ACC00600D8C205 /* App Instructions iPad Page 9.png in Resources */,
+				8C6AB69621ACBEF500D8C205 /* LeftArrow.png in Resources */,
+				8C6AB66021ACBEF500D8C205 /* hoticon_nogrid_1024_1024.jpg in Resources */,
+				8C6AB68E21ACBEF500D8C205 /* Snowflake Black.png in Resources */,
+				8C280C0921AFA1C900110414 /* KiloLima Logo.png in Resources */,
+				8C6AB69421ACBEF500D8C205 /* Help Conditions.png in Resources */,
+				8C6AB65D21ACBEF500D8C205 /* Stopwatch Disabled.png in Resources */,
+				8C6AB65B21ACBEF500D8C205 /* Stopwatch Black.png in Resources */,
+				8C6AB70A21ACC04000D8C205 /* App Instructions iPhone Page 9.png in Resources */,
+				8C6AB6F221ACC04000D8C205 /* App Instructions iPhone Page 19.png in Resources */,
+				8C6AB6F821ACC04000D8C205 /* App Instructions iPhone Page 7.png in Resources */,
+				8C6AB6FD21ACC04000D8C205 /* App Instructions iPhone Page 18.png in Resources */,
+				8C6AB6FF21ACC04000D8C205 /* App Instructions iPhone Page 8.png in Resources */,
+				8C6AB70021ACC04000D8C205 /* App Instructions iPhone Page 28.png in Resources */,
+				8C6AB6F721ACC04000D8C205 /* App Instructions iPhone Page 17.png in Resources */,
+				8C6AB70B21ACC04000D8C205 /* App Instructions iPhone Page 10.png in Resources */,
+				8C6AB6F021ACC04000D8C205 /* App Instructions iPhone Page 25.png in Resources */,
+				8C6AB6F421ACC04000D8C205 /* App Instructions iPhone Page 6.png in Resources */,
+				8C6AB70521ACC04000D8C205 /* App Instructions iPhone Page 14.png in Resources */,
+				8C6AB70221ACC04000D8C205 /* App Instructions iPhone Page 12.png in Resources */,
+				8C6AB70821ACC04000D8C205 /* App Instructions iPhone Page 29.png in Resources */,
+				8C6AB70421ACC04000D8C205 /* App Instructions iPhone Page 21.png in Resources */,
+				8C6AB70D21ACC04000D8C205 /* App Instructions iPhone Page 1.png in Resources */,
+				8C6AB6FA21ACC04000D8C205 /* App Instructions iPhone Page 4.png in Resources */,
+				8C6AB6F621ACC04000D8C205 /* App Instructions iPhone Page 3.png in Resources */,
+				8C6AB6F921ACC04000D8C205 /* App Instructions iPhone Page 2.png in Resources */,
+				8C6AB70C21ACC04000D8C205 /* App Instructions iPhone Page 23.png in Resources */,
+				8C6AB70121ACC04000D8C205 /* App Instructions iPhone Page 24.png in Resources */,
+				8C6AB6F521ACC04000D8C205 /* App Instructions iPhone Page 11.png in Resources */,
+				8C6AB6F321ACC04000D8C205 /* App Instructions iPhone Page 26.png in Resources */,
+				8C6AB70921ACC04000D8C205 /* App Instructions iPhone Page 30.png in Resources */,
+				8C6AB70721ACC04000D8C205 /* App Instructions iPhone Page 13.png in Resources */,
+				8C6AB6F121ACC04000D8C205 /* App Instructions iPhone Page 5.png in Resources */,
+				8C6AB6FE21ACC04000D8C205 /* App Instructions iPhone Page 22.png in Resources */,
+				8C6AB70621ACC04000D8C205 /* App Instructions iPhone Page 15.png in Resources */,
+				8C6AB6FC21ACC04000D8C205 /* App Instructions iPhone Page 16.png in Resources */,
+				8C6AB6FB21ACC04000D8C205 /* App Instructions iPhone Page 27.png in Resources */,
+				8C6AB70321ACC04000D8C205 /* App Instructions iPhone Page 20.png in Resources */,
+				8C6AB67B21ACBEF500D8C205 /* FB-fLogo-Blue-printpackaging.tif in Resources */,
+				8C6AB66E21ACBEF500D8C205 /* Upper Case.png in Resources */,
+				8C6AB68521ACBEF500D8C205 /* Info Page Icons.odg in Resources */,
+				8C6AB68921ACBEF500D8C205 /* Up Scroll.png in Resources */,
+				8C6AB69721ACBEF500D8C205 /* iPadBackground_Portrait.png in Resources */,
+				8C6AB67321ACBEF500D8C205 /* Stopwatch Green.png in Resources */,
+				8CBAEE5321A0AA4F00E0E34C /* viewLogin.xib in Resources */,
+				8C6AB66921ACBEF500D8C205 /* hoticon_nogrid_1024_1024.png in Resources */,
+				8CBAEE2E21A0AA4F00E0E34C /* RenewSubscriptionView_iPad.xib in Resources */,
+				8CBAEE3321A0AA4F00E0E34C /* FluidNamePickerRow.xib in Resources */,
+				8C6AB69121ACBEF500D8C205 /* Fluid Droplet Grey.png in Resources */,
+				8C6AB66D21ACBEF500D8C205 /* Menu Pointer.png in Resources */,
+				8CF8FAAA21CBF1FB000AD840 /* Delete.png in Resources */,
+				8C6AB67821ACBEF500D8C205 /* Icon-App-76x76@3x.png in Resources */,
+				8C6AB69021ACBEF500D8C205 /* ConditionsButton.png in Resources */,
+				8CBAEE3621A0AA4F00E0E34C /* Holdover Calculator Tell A Friend email.html in Resources */,
+				8C6AB68C21ACBEF500D8C205 /* US Flag Icon.png in Resources */,
+				8C6AB67621ACBEF500D8C205 /* Snowflake Blue.png in Resources */,
+				8C6AB68D21ACBEF500D8C205 /* PlayButton.png in Resources */,
+				8C6AB67D21ACBEF500D8C205 /* iPhoneBackground_Landscape.png in Resources */,
+				8C6AB68321ACBEF500D8C205 /* Help Icon.png in Resources */,
+				8C6AB68121ACBEF500D8C205 /* StopButton.png in Resources */,
+				8C6AB67E21ACBEF500D8C205 /* Help Holdover.png in Resources */,
+				8CBAEE4121A0AA4F00E0E34C /* Warning Triangle.png in Resources */,
+				8C6AB66621ACBEF500D8C205 /* Canada Flag Icon.png in Resources */,
+				8C6AB66B21ACBEF500D8C205 /* Stopwatch Enabled.png in Resources */,
+				8C6AB66721ACBEF500D8C205 /* iMessage Icon.png in Resources */,
+				8C6AB69821ACBEF500D8C205 /* RightArrow.png in Resources */,
+				8C6AB71A21ACE06000D8C205 /* Alarm 4.wav in Resources */,
+				8CBAEE4621A0AA4F00E0E34C /* Beep.wav in Resources */,
+				8CBAEE5821A0AA4F00E0E34C /* MainStoryboard.storyboard in Resources */,
+				8C6AB65C21ACBEF500D8C205 /* About.png in Resources */,
+				8CBAEE2621A0AA4F00E0E34C /* Rate Our App.pdf in Resources */,
+				8C6AB67121ACBEF500D8C205 /* Back To Conditions.png in Resources */,
+				8C6AB71521ACE06000D8C205 /* Alarm 5.wav in Resources */,
+				8C27409621A09F8200C0F414 /* LaunchScreen.storyboard in Resources */,
+				8C6AB67421ACBEF500D8C205 /* Mail Icon.png in Resources */,
+				8C6AB66F21ACBEF500D8C205 /* Aircraft Grey.png in Resources */,
+				8CBAEE2C21A0AA4F00E0E34C /* Sound Off.png in Resources */,
+				8CBAEE4021A0AA4F00E0E34C /* CautionsView.xib in Resources */,
+				8C6AB68221ACBEF500D8C205 /* Conditions Button.png in Resources */,
+				8C6AB65A21ACBEF500D8C205 /* RightScroll.png in Resources */,
+				8C6AB66321ACBEF500D8C205 /* Purchase.png in Resources */,
+				8C6AB68021ACBEF500D8C205 /* Chart Cautions.png in Resources */,
+				8CBAEE4E21A0AA4F00E0E34C /* InAppProducts.plist in Resources */,
+				8C6AB67221ACBEF500D8C205 /* iPadBackground_Landscape.png in Resources */,
+				8C6AB71821ACE06000D8C205 /* Alarm 3.wav in Resources */,
+				8CBAEE5A21A0AA4F00E0E34C /* Sound On.png in Resources */,
+				8C6AB66C21ACBEF500D8C205 /* Legal.png in Resources */,
+				8C6AB65F21ACBEF500D8C205 /* Apple Store.webarchive in Resources */,
+				8CBAEE3821A0AA4F00E0E34C /* LocationKeyboard_iPad.xib in Resources */,
+				8C6AB67921ACBEF500D8C205 /* Not Now Enabled.png in Resources */,
+				8C6AB66221ACBEF500D8C205 /* Fluid Droplet Red.png in Resources */,
+				8C6AB67C21ACBEF500D8C205 /* Aircraft Red.png in Resources */,
+				8CBAEDC621A0A8F700E0E34C /* Images.xcassets in Resources */,
+				8CBAEE3E21A0AA4F00E0E34C /* LocationKeyboard.xib in Resources */,
+				8C6AB69A21ACBEF500D8C205 /* info icon6.png in Resources */,
+				8C6AB69921ACBEF500D8C205 /* Menu.png in Resources */,
+				8C6AB68721ACBEF500D8C205 /* Aircraft Blue.png in Resources */,
+				8C6AB71921ACE06000D8C205 /* Alarm 6.wav in Resources */,
+				8C6AB65E21ACBEF500D8C205 /* Lower Case.png in Resources */,
+				8C6AB66421ACBEF500D8C205 /* HOT Images.pages in Resources */,
+				8C6AB69B21ACBEF500D8C205 /* Holdover Calculator 2013 Images.pages in Resources */,
+				8C27409321A09F8200C0F414 /* Assets.xcassets in Resources */,
+				8C6AB69321ACBEF500D8C205 /* Kilo Lima Logo.png in Resources */,
+				8C6AB69521ACBEF500D8C205 /* Not Now Disabled.png in Resources */,
+				8C6AB67A21ACBEF500D8C205 /* LeftScroll.png in Resources */,
+				8CBAEE4F21A0AA4F00E0E34C /* ConditionsViewBackgroundImage.gif in Resources */,
+				8C6AB68421ACBEF500D8C205 /* InfoProcedure.png in Resources */,
+				8C6AB66121ACBEF500D8C205 /* CircleCheckMark.png in Resources */,
+				8C6AB68621ACBEF500D8C205 /* Advanced Aircrew Academy Logo.png in Resources */,
+				8C398FB021A3A2CE008A0D61 /* Default-568h@2x.png in Resources */,
+				8C27408E21A09F8100C0F414 /* Main.storyboard in Resources */,
+				8CBAEE3B21A0AA4F00E0E34C /* RenewSubscriptionView.xib in Resources */,
+				8C6AB67021ACBEF500D8C205 /* Swipe or Tap.png in Resources */,
+				8C6AB66821ACBEF500D8C205 /* Down Scroll.png in Resources */,
+				8C6AB68A21ACBEF500D8C205 /* Snowflake Red.png in Resources */,
+				8C6AB68821ACBEF500D8C205 /* Snowflake Grey.png in Resources */,
+				8C6AB68B21ACBEF500D8C205 /* EnterCode.png in Resources */,
+				8C6AB69C21ACBEF500D8C205 /* iPhoneBackground_Portrait.png in Resources */,
+				8C6AB66521ACBEF500D8C205 /* Cogged Wheeel.png in Resources */,
+				8C6AB67F21ACBEF500D8C205 /* Fluid Droplet Blue.png in Resources */,
+				8C6AB71621ACE06000D8C205 /* Alarm 2.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C27409C21A09F8200C0F414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2740A721A09F8300C0F414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56BDF226E7A146CB8A40180D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Holdover Calculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D76CFB32500CAFF2D7203FFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Holdover Calculator/Pods-Holdover Calculator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Holdover Calculator/Pods-Holdover Calculator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Holdover Calculator/Pods-Holdover Calculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C27407F21A09F8100C0F414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBAEE3521A0AA4F00E0E34C /* AboutViewController.m in Sources */,
+				8CBAEE4821A0AA4F00E0E34C /* Anti_IceFluid.m in Sources */,
+				8CBAEE5D21A0AA4F00E0E34C /* AppManagementViewController.m in Sources */,
+				8CBAEE4221A0AA4F00E0E34C /* CautionsView.m in Sources */,
+				8CBAEE2F21A0AA4F00E0E34C /* ConditionsViewController_AutoLayout.m in Sources */,
+				8CBAEE4321A0AA4F00E0E34C /* Constants_and_Variables.m in Sources */,
+				8CBAEE3721A0AA4F00E0E34C /* DateManager.m in Sources */,
+				8CBAEE2D21A0AA4F00E0E34C /* DisclaimerViewController.m in Sources */,
+				8CBAEE2721A0AA4F00E0E34C /* FluidNamePickerRow.m in Sources */,
+				8CBAEE4B21A0AA4F00E0E34C /* HelpViewController.m in Sources */,
+				8CBAEE5C21A0AA4F00E0E34C /* HelpView-Conditions.m in Sources */,
+				8C27409121A09F8100C0F414 /* Holdover_Calculator.xcdatamodeld in Sources */,
+				8CBAEE2B21A0AA4F00E0E34C /* HOT.m in Sources */,
+				8CBAEE2521A0AA4F00E0E34C /* HOT_CalculatorAppDelegate.m in Sources */,
+				8CBAEE4921A0AA4F00E0E34C /* HOTViewController_AutoLayout.m in Sources */,
+				8CBAEE2821A0AA4F00E0E34C /* infoViewController.m in Sources */,
+				8CBAEE4C21A0AA4F00E0E34C /* LocationKeyboard.m in Sources */,
+				8CBAEE5121A0AA4F00E0E34C /* LoginSegue.m in Sources */,
+				8CBAEE5521A0AA4F00E0E34C /* LoginView.m in Sources */,
+				8C27409921A09F8200C0F414 /* main.m in Sources */,
+				8CBAEE3A21A0AA4F00E0E34C /* Reachability.m in Sources */,
+				8CBAEE4A21A0AA4F00E0E34C /* RenewSubscriptionView_iPad.m in Sources */,
+				8CBAEE5421A0AA4F00E0E34C /* RenewSubscriptionView.m in Sources */,
+				8CBAEE3921A0AA4F00E0E34C /* SettingsView.m in Sources */,
+				8CBAEE3C21A0AA4F00E0E34C /* SponsorViewController.m in Sources */,
+				8CBAEE2421A0AA4F00E0E34C /* Type_I_Fluid.m in Sources */,
+				8CBAEE3121A0AA4F00E0E34C /* Type_II_Fluid.m in Sources */,
+				8CBAEE5621A0AA4F00E0E34C /* Type_III_Fluid.m in Sources */,
+				8CBAEE5E21A0AA4F00E0E34C /* Type_IV_Fluid.m in Sources */,
+				8C27408B21A09F8100C0F414 /* ViewController.m in Sources */,
+				8CBAEE2A21A0AA4F00E0E34C /* ViewLogin.m in Sources */,
+				8CBAEE2921A0AA4F00E0E34C /* WX.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C27409A21A09F8200C0F414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2740A321A09F8200C0F414 /* Holdover_CalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2740A521A09F8300C0F414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2740AE21A09F8300C0F414 /* Holdover_CalculatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C2740A021A09F8200C0F414 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C27408221A09F8100C0F414 /* Holdover Calculator */;
+			targetProxy = 8C27409F21A09F8200C0F414 /* PBXContainerItemProxy */;
+		};
+		8C2740AB21A09F8300C0F414 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C27408221A09F8100C0F414 /* Holdover Calculator */;
+			targetProxy = 8C2740AA21A09F8300C0F414 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C27408C21A09F8100C0F414 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C27408D21A09F8100C0F414 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C27409421A09F8200C0F414 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C27409521A09F8200C0F414 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C2740B021A09F8300C0F414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8C2740B121A09F8300C0F414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C2740B321A09F8300C0F414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5212F3373A69A1FC2F8F540 /* Pods-Holdover Calculator.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.7.13;
+				DEVELOPMENT_TEAM = 4FBS2P566J;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)/**";
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "Holdover Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 1.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Bolts\"",
+					"-l\"IQKeyboardManager\"",
+					"-l\"MailCore-ios\"",
+					"-l\"Parse\"",
+					"-l\"RMStore\"",
+					"-l\"UICKeyChainStore\"",
+					"-l\"c++\"",
+					"-l\"crypto\"",
+					"-l\"iconv\"",
+					"-l\"resolv\"",
+					"-l\"sqlite3\"",
+					"-l\"ssl\"",
+					"-l\"xml2\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"Accounts\"",
+					"-weak_framework",
+					"\"Social\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kilo-Lima.Holdover-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/OpenSSL-Universal/ios/include/openssl\"";
+			};
+			name = Debug;
+		};
+		8C2740B421A09F8300C0F414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B31D8834301B18B9D4C14933 /* Pods-Holdover Calculator.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.7.13;
+				DEVELOPMENT_TEAM = 4FBS2P566J;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)/**";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(inherited)/**";
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "Holdover Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 1.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Bolts\"",
+					"-l\"IQKeyboardManager\"",
+					"-l\"MailCore-ios\"",
+					"-l\"Parse\"",
+					"-l\"RMStore\"",
+					"-l\"UICKeyChainStore\"",
+					"-l\"c++\"",
+					"-l\"crypto\"",
+					"-l\"iconv\"",
+					"-l\"resolv\"",
+					"-l\"sqlite3\"",
+					"-l\"ssl\"",
+					"-l\"xml2\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"Accounts\"",
+					"-weak_framework",
+					"\"Social\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kilo-Lima.Holdover-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/OpenSSL-Universal/ios/include/openssl\"";
+			};
+			name = Release;
+		};
+		8C2740B621A09F8300C0F414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FBS2P566J;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Holdover CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kilo-Lima.Holdover-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Holdover Calculator.app/Holdover Calculator";
+			};
+			name = Debug;
+		};
+		8C2740B721A09F8300C0F414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FBS2P566J;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Holdover CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kilo-Lima.Holdover-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Holdover Calculator.app/Holdover Calculator";
+			};
+			name = Release;
+		};
+		8C2740B921A09F8300C0F414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FBS2P566J;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Holdover CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kilo-Lima.Holdover-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Holdover Calculator";
+			};
+			name = Debug;
+		};
+		8C2740BA21A09F8300C0F414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FBS2P566J;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Holdover CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kilo-Lima.Holdover-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Holdover Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C27407E21A09F8100C0F414 /* Build configuration list for PBXProject "Holdover Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2740B021A09F8300C0F414 /* Debug */,
+				8C2740B121A09F8300C0F414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C2740B221A09F8300C0F414 /* Build configuration list for PBXNativeTarget "Holdover Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2740B321A09F8300C0F414 /* Debug */,
+				8C2740B421A09F8300C0F414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C2740B521A09F8300C0F414 /* Build configuration list for PBXNativeTarget "Holdover CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2740B621A09F8300C0F414 /* Debug */,
+				8C2740B721A09F8300C0F414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C2740B821A09F8300C0F414 /* Build configuration list for PBXNativeTarget "Holdover CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2740B921A09F8300C0F414 /* Debug */,
+				8C2740BA21A09F8300C0F414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8C27408F21A09F8100C0F414 /* Holdover_Calculator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8C27409021A09F8100C0F414 /* Holdover_Calculator.xcdatamodel */,
+			);
+			currentVersion = 8C27409021A09F8100C0F414 /* Holdover_Calculator.xcdatamodel */;
+			path = Holdover_Calculator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8C27407B21A09F8100C0F414 /* Project object */;
+}

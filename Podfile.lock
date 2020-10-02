@@ -1,0 +1,44 @@
+PODS:
+  - Bolts/Tasks (1.9.0)
+  - IQKeyboardManager (6.2.0)
+  - mailcore2-ios (0.6.4)
+  - OpenSSL-Universal (1.0.2.13)
+  - Parse (1.17.1):
+    - Parse/Core (= 1.17.1)
+  - Parse/Core (1.17.1):
+    - Bolts/Tasks (~> 1.9)
+  - RMStore (0.7.1):
+    - RMStore/Core (= 0.7.1)
+  - RMStore/Core (0.7.1)
+  - UICKeyChainStore (2.1.2)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - mailcore2-ios
+  - OpenSSL-Universal
+  - Parse
+  - RMStore (~> 0.7)
+  - UICKeyChainStore (~> 2.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Bolts
+    - IQKeyboardManager
+    - mailcore2-ios
+    - OpenSSL-Universal
+    - Parse
+    - RMStore
+    - UICKeyChainStore
+
+SPEC CHECKSUMS:
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
+  mailcore2-ios: 3ff0be2fa553d4da9c11d39c11d51863c768f24f
+  OpenSSL-Universal: 401888162f11c33ebbd46f782d9229da35c61327
+  Parse: d3edaf8c7c722cb33cb83ba7821d015ae32d362d
+  RMStore: 64ba13a9c040e3b7572765d169f77175cd3243e5
+  UICKeyChainStore: 85db518bb1d294366d15ec9b92a416c4e670518f
+
+PODFILE CHECKSUM: 0bb366c1ecf14c957302e94b05c91e6f4c168052
+
+COCOAPODS: 1.5.3
